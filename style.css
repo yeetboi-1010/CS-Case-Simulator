@@ -1,3 +1,21 @@
 body {
     font-family: 'Roboto', 'Arial';
+    text-align: center;
+}
+
+.bordered {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#CasesBannerIntro {
+    width: auto;
+    height: 200px;
+}
+
+#ArrowIntro {
+    width: auto;
+    height: 225px;
 }
