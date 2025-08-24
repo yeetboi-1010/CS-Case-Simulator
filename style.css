@@ -10,6 +10,14 @@ body {
     padding: 5px;
 }
 
+.borderedCases {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px;
+    background-color: bisque;
+}
+
 #CasesBannerIntro {
     width: auto;
     height: 200px;
@@ -18,4 +26,14 @@ body {
 #ArrowIntro {
     width: auto;
     height: 225px;
+}
+
+.CaseOpenable {
+    width: auto;
+    height: 400px;
+}
+
+#FeverOpenButton {
+    height: 50px;
+    width: 100px;
 }
