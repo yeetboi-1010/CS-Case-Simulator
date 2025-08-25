@@ -12,21 +12,28 @@ let FeverCaseItems = [
 
 let FeverCaseDropped = {
     milSpec: [
-        {name: "P2000 - Sure Grip", img: "Images/Cases/FeverCase/Skins/P2000-SureGrip.png"},
-        {name: "MP9 - Nexus", img: "Images/Cases/FeverCase/Skins/MP9-Nexus.png"},
-        {name: "USP-S - PC-GRN", img: "Images/Cases/FeverCase/Skins/USPS-PCGRN.png"},
-        {name: "SSG 08 - Memorial", img: "Images/Cases/FeverCase/Skins/SSG08-Memorial.png"},
-        {name: "M4A4 - Choppa", img:"Images/Cases/FeverCase/Skins/M4A4-Choppa.png"},
-        {name: "MAG-7 - Resupply", img: "Images/Cases/FeverCase/Skins/MAG7-Resupply.png"},
-        {name: "XM1014 - Mockingbird", img: "Images/Cases/FeverCase/Skins/XM1014-Mockingbird.png"}
+        {name: "P2000 - Sure Grip (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/P2000-SureGrip.png"},
+        {name: "MP9 - Nexus (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/MP9-Nexus.png"},
+        {name: "USP-S - PC-GRN (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/USPS-PCGRN.png"},
+        {name: "SSG 08 - Memorial (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/SSG08-Memorial.png"},
+        {name: "M4A4 - Choppa (Mil-Spec)", img:"Images/Cases/FeverCase/Skins/M4A4-Choppa.png"},
+        {name: "MAG-7 - Resupply (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/MAG7-Resupply.png"},
+        {name: "XM1014 - Mockingbird (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/XM1014-Mockingbird.png"}
     ],
     restricted: [
-        {name: }
+        {name: "Desert Eagle - Serpent Strike (Restricted)", img: "Images/Cases/FeverCase/Skins/Deagle-Serpent.png"},
+        {name: "Galil AR - Control (Restricted)", img: "Images/Cases/FeverCase/Skins/Galil-Control.png"},
+        {name: "Nova - Rising Sun (Restricted)", img: "Images/Cases/FeverCase/Skins/Nova-RisingSun.png"},
+        {name: "P90 - Wave Breaker (Restricted)", img: "Images/Cases/FeverCase/Skins/P90-WaveBreaker.png"},
+        {name: "Zeus x27 - Tosai (Restricted)", img: "Images/Cases/FeverCase/Skins/ZeusX27-Tosai.png"}
     ],
     classified: [
         {name: "Glock-18 - Shinobu", img: "Images/Cases/FeverCase/Skins/G18-Shinobu.png"},
         {name: "AK-47 - Searing Range", img: "Images/Cases/FeverCase/Skins/AK-SearingRange.png"},
         {name: "UMP-45 - K.O. Factory", img: "Images/Cases/FeverCase/Skins/UMP45-KoFactory.png"}
+    ],
+    covert: [
+        {name: }
     ],
     specialItem: [
         {name: "Skeleton Knife - Marble Fade", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-MarbleFade.png"},
