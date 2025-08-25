@@ -45,3 +45,13 @@ body {
     height: 50px;
     width: 100px;
 }
+
+#OhnePixelImage {
+    width: auto;
+    height: 250px;
+}
+
+#GabenImage {
+    width: auto;
+    height: 250px;
+}

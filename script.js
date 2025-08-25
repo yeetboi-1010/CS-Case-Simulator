@@ -1,6 +1,9 @@
 const OpenFeverButton = document.getElementById("FeverOpenButton")
 const FeverResults = document.getElementById("Results")
 const FeverImageDrops = document.getElementById("FeverDroppedSkinImage")
+const CaseTotal = document.getElementById("CasesTotal")
+
+let CasesOpenedTotal = 0;
 
 let FeverCaseItems = [
     {name: "milSpec", chance: 79.92328},
@@ -84,7 +87,8 @@ function FeverCaseOpened() {
     let randomIndex = Math.floor(Math.random() * skins.length)
     let ChosenSkin = skins[randomIndex]
 
-
+    CasesOpenedTotal = CasesOpenedTotal + 1;
     FeverResults.innerText = ChosenSkin.name;
     FeverImageDrops.src = ChosenSkin.img;
+    CaseTotal.innerText = "Total Cases Opened: " + CasesOpenedTotal
 }
