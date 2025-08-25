@@ -37,10 +37,30 @@ let FeverCaseDropped = {
         {name: "FAMAS - Bad Trip (Covert)", img: "Images/Cases/FeverCase/Skins/FAMAS-BadTrip.png"}
     ],
     specialItem: [
-        {name: "Skeleton Knife - Marble Fade", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-MarbleFade.png"},
-        {name: "Nomad Knife - Doppler", img: "Images/Cases/FeverCase/Skins/NomadKnife-Doppler.png"},
-        {name: "Paracord Knife - Damascus Steel", img: "Images/Cases/FeverCase/Skins/ParacordKnife-DamascusSteel.png"},
-        {name: "Survival Knife - Tiger Tooth", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-TigerTooth.png"}
+        {name: "Skeleton Knife - Marble Fade (Special Item)", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-MarbleFade.png"},
+        {name: "Nomad Knife - Doppler (Special Item)", img: "Images/Cases/FeverCase/Skins/NomadKnife-Doppler.png"},
+        {name: "Paracord Knife - Damascus Steel (Special Item)", img: "Images/Cases/FeverCase/Skins/ParacordKnife-DamascusSteel.png"},
+        {name: "Survival Knife - Tiger Tooth (Special Item)", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-TigerTooth.png"},
+        {name: "Nomad Knife - Damascus Steel (Special Item)", img: "Images/Cases/FeverCase/Skins/NomadKnife-DamascusSteel.png"},
+        {name: "Nomad Knife - Marble Fade (Special Item)", img: "Images/Cases/FeverCase/Skins/NomadKnife-MarbleFade.png"},
+        {name: "Nomad Knife - Rust Coat (Special Item)", img: "Images/Cases/FeverCase/Skins/NomadKnife-RustCoat.png"},
+        {name: "Nomad Knife - Tiger Tooth (Special Item)", img: "Images/Cases/FeverCase/Skins/NomadKnife-TigerTooth.png"},
+        {name: "Nomad Knife - Ultraviolet (Special Item)", img: "Images/Cases/FeverCase/Skins/NomadKnife-Ultraviolet.png"},
+        {name: "Paracord Knife - Doppler (Special Item)", img: "Images/Cases/FeverCase/Skins/ParacordKnife-Doppler.png"},
+        {name: "Paracord Knife - Marble Fade (Special Item)", img: "Images/Cases/FeverCase/Skins/ParacordKnife-MarbleFade.png"},
+        {name: "Paracord Knife - Rust Coat (Special Item)", img: "Images/Cases/FeverCase/Skins/ParacordKnife-RustCoat.png"},
+        {name: "Paracord Knife - Tiger Tooth (Special Item)", img: "Images/Cases/FeverCase/Skins/ParacordKnife-TigerTooth.png"},
+        {name: "Paracord Knife - Ultraviolet (Special Item)", img: "Images/Cases/FeverCase/Skins/ParacordKnife-Ultraviolet.png"},
+        {name: "Skeleton Knife - Damascus Steel (Special Item)", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-DamascusSteel.png"},
+        {name: "Skeleton Knife - Doppler (Special Item)", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-Doppler.png"},
+        {name: "Skeleton Knife - Rust Coat (Special Item)", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-RustCoat.png"},
+        {name: "Skeleton Knife - Tiger Tooth (Special Item)", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-TigerTooth.png"},
+        {name: "Skeleton Knife - Ultraviolet (Special Item)", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-Ultraviolet.png"},
+        {name: "Survival Knife - Damascus Steel (Special Item)", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-DamascusSteel.png"},
+        {name: "Survival Knife - Doppler (Special Item)", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-Doppler.png"},
+        {name: "Survival Knife - Marble Fade (Special Item)", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-MarbleFade.png"},
+        {name: "Survival Knife - Rust Coat (Special Item)", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-RustCoat.png"},
+        {name: "Survival Knife - Ultraviolet (Special Item)", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-Ultraviolet.png"}
     ]
 };
 
