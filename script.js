@@ -28,12 +28,13 @@ let FeverCaseDropped = {
         {name: "Zeus x27 - Tosai (Restricted)", img: "Images/Cases/FeverCase/Skins/ZeusX27-Tosai.png"}
     ],
     classified: [
-        {name: "Glock-18 - Shinobu", img: "Images/Cases/FeverCase/Skins/G18-Shinobu.png"},
-        {name: "AK-47 - Searing Range", img: "Images/Cases/FeverCase/Skins/AK-SearingRange.png"},
-        {name: "UMP-45 - K.O. Factory", img: "Images/Cases/FeverCase/Skins/UMP45-KoFactory.png"}
+        {name: "Glock-18 - Shinobu (Classified)", img: "Images/Cases/FeverCase/Skins/G18-Shinobu.png"},
+        {name: "AK-47 - Searing Range (Classified)", img: "Images/Cases/FeverCase/Skins/AK-SearingRange.png"},
+        {name: "UMP-45 - K.O. Factory (Classified)", img: "Images/Cases/FeverCase/Skins/UMP45-KoFactory.png"}
     ],
     covert: [
-        {name: }
+        {name: "AWP - Prinstream (Covert)", img: "Images/Cases/FeverCase/Skins/AWP-Printstream.png"}
+        {name: "FAMAS - Bad Trip (Covert)", img: "Images/Cases/FeverCase/Skins/FAMAS-BadTrip.png"}
     ],
     specialItem: [
         {name: "Skeleton Knife - Marble Fade", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-MarbleFade.png"},
