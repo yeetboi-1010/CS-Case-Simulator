@@ -96,6 +96,10 @@ function FeverCaseOpened() {
 
 
 
+
+
+
+
 const OpenRecoilButton = document.getElementById("RecoilOpenButton")
 const RecoilResults = document.getElementById("RecoilResults")
 const RecoilImageDrops = document.getElementById("RecoilDroppedSkinImage")
@@ -168,14 +172,14 @@ let RecoilCaseDropped = {
 OpenRecoilButton.addEventListener("click", RecoilCaseOpened)
 
 function RecoilCaseOpened() {
-    let roll = Math.random() * 100;
+    let rollRecoil = Math.random() * 100;
     let RecoilRunningTotal = 0;
     let RecoilChosenItem;
 
     for (let i=0; i < RecoilCaseItems.length; i++) {
         RecoilRunningTotal += RecoilCaseItems[i].chance
 
-        if (roll < RecoilRunningTotal) {
+        if (rollRecoil < RecoilRunningTotal) {
             RecoilChosenItem = RecoilCaseItems[i];
             break;
         }
