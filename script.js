@@ -1,3 +1,6 @@
+const GlobalCaseTotal = document.getElementById("GlobalCaseCounter")
+let GlobalCasesOpenedTotal = 0;
+
 const OpenFeverButton = document.getElementById("FeverOpenButton")
 const FeverResults = document.getElementById("Results")
 const FeverImageDrops = document.getElementById("FeverDroppedSkinImage")
@@ -88,9 +91,11 @@ function FeverCaseOpened() {
     let ChosenSkin = skins[randomIndex]
 
     CasesOpenedTotal = CasesOpenedTotal + 1;
+    GlobalCasesOpenedTotal = GlobalCasesOpenedTotal + 1;
     FeverResults.innerText = ChosenSkin.name;
     FeverImageDrops.src = ChosenSkin.img;
-    CaseTotal.innerText = "Total Cases Opened: " + CasesOpenedTotal
+    CaseTotal.innerText = "Total Fever Cases Opened: " + CasesOpenedTotal
+    GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
 }
 
 
@@ -190,7 +195,9 @@ function RecoilCaseOpened() {
     let RecoilChosenSkin = skinsRecoil[randomIndexRecoil]
 
     RecoilCasesOpenedTotal = RecoilCasesOpenedTotal + 1;
+    GlobalCasesOpenedTotal = GlobalCasesOpenedTotal + 1;
     RecoilResults.innerText = RecoilChosenSkin.name;
     RecoilImageDrops.src = RecoilChosenSkin.img;
-    RecoilCaseTotal.innerText = "Total Cases Opened: " + RecoilCasesOpenedTotal
+    RecoilCaseTotal.innerText = "Total Recoil Cases Opened: " + RecoilCasesOpenedTotal
+    GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
 }
