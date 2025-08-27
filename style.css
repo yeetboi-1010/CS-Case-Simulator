@@ -46,6 +46,11 @@ body {
     width: 100px;
 }
 
+#RecoilOpenButton {
+    height: 50px;
+    width: 100px;
+}
+
 #OhnePixelImage {
     width: auto;
     height: 250px;
