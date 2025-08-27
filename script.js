@@ -117,20 +117,20 @@ let RecoilCaseItems = [
 
 let RecoilCaseDropped = {
     milSpec: [
-        {name: "P2000 - Sure Grip (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/P2000-SureGrip.png"},
-        {name: "MP9 - Nexus (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/MP9-Nexus.png"},
-        {name: "USP-S - PC-GRN (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/USPS-PCGRN.png"},
-        {name: "SSG 08 - Memorial (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/SSG08-Memorial.png"},
-        {name: "M4A4 - Choppa (Mil-Spec)", img:"Images/Cases/FeverCase/Skins/M4A4-Choppa.png"},
-        {name: "MAG-7 - Resupply (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/MAG7-Resupply.png"},
-        {name: "XM1014 - Mockingbird (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/XM1014-Mockingbird.png"}
+        {name: "MAC-10 - Monkeyflage (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/MAC10-Monkeyflage.png"},
+        {name: "UMP-45 - Roadblock (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/UMP45-Roadblock.png"},
+        {name: "Negev - Drop Me (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/Negev-DropMe.png"},
+        {name: "FAMAS - Meow 36 (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/FAMAS-Meow36.png"},
+        {name: "Galil AR - Destroyer (Mil-Spec)", img:"Images/Cases/RecoilCase/Skins/RecoilMilSpec/Galil-Destroyer.png"},
+        {name: "M4A4 - Poly Mag (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/M4-PolyMag.png"},
+        {name: "Glock 18 - Winterized (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/G18-Winterized.png"}
     ],
     restricted: [
-        {name: "Desert Eagle - Serpent Strike (Restricted)", img: "Images/Cases/FeverCase/Skins/Deagle-SerpentStrike.png"},
-        {name: "Galil AR - Control (Restricted)", img: "Images/Cases/FeverCase/Skins/Galil-Control.png"},
-        {name: "Nova - Rising Sun (Restricted)", img: "Images/Cases/FeverCase/Skins/Nova-RisingSun.png"},
-        {name: "P90 - Wave Breaker (Restricted)", img: "Images/Cases/FeverCase/Skins/P90-WaveBreaker.png"},
-        {name: "Zeus x27 - Tosai (Restricted)", img: "Images/Cases/FeverCase/Skins/ZeusX27-Tosai.png"}
+        {name: "Dual Berettas - Flora Carnivora (Restricted)", img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/DualB-FloraCarnivora.png"},
+        {name: "P90 - Vent Rush (Restricted)", img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/P90-VentRush.png"},
+        {name: "SG 553 - Dragon Tech (Restricted)", img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/SG553-DragonTech.png"},
+        {name: "R8 Revolver - Crazy 8 (Restricted)", img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/R8-Crazy8.png"},
+        {name: "M249 - Downtown (Restricted)", img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/Downtown.png"}
     ],
     classified: [
         {name: "Glock-18 - Shinobu (Classified)", img: "Images/Cases/FeverCase/Skins/G18-Shinobu.png"},
