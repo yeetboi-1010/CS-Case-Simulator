@@ -133,13 +133,13 @@ let RecoilCaseDropped = {
         {name: "M249 - Downtown (Restricted)", img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/Downtown.png"}
     ],
     classified: [
-        {name: "Glock-18 - Shinobu (Classified)", img: "Images/Cases/FeverCase/Skins/G18-Shinobu.png"},
-        {name: "AK-47 - Searing Range (Classified)", img: "Images/Cases/FeverCase/Skins/AK-SearingRange.png"},
-        {name: "UMP-45 - K.O. Factory (Classified)", img: "Images/Cases/FeverCase/Skins/UMP45-KoFactory.png"}
+        {name: "AK-47 - Ice Coaled (Classified)", img: "Images/Cases/RecoilCase/Skins/RecoilClassified/AK-IceCoaled.png"},
+        {name: "P250 - Visions (Classified)", img: "Images/Cases/RecoilCase/Skins/RecoilClassified/P250-Visions.png"},
+        {name: "Sawed Off - Kiss♥Love (Classified)", img: "Images/Cases/RecoilCase/Skins/RecoilClassified/SawedOff-KissLove.png"}
     ],
     covert: [
-        {name: "AWP - Prinstream (Covert)", img: "Images/Cases/FeverCase/Skins/AWP-Printstream.png"},
-        {name: "FAMAS - Bad Trip (Covert)", img: "Images/Cases/FeverCase/Skins/FAMAS-BadTrip.png"}
+        {name: "AWP - Chromatic Aberration (Covert)", img: "Images/Cases/RecoilCase/Skins/RecoilCovert/AWP-ChromaticAberration.png"},
+        {name: "USP-S - Printstream (Covert)", img: "Images/Cases/FeverCase/Skins/RecoilCovert/USPS-Printstream.png"}
     ],
     specialItem: [
         {name: "Skeleton Knife - Marble Fade (Special Item)", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-MarbleFade.png"},
