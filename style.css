@@ -39,6 +39,8 @@ body {
 .CaseOpenable {
     width: auto;
     height: 400px;
+
+    animation: wobbleCases 3s infinite alternate;
 }
 
 #FeverOpenButton {
@@ -69,4 +71,9 @@ body {
 @keyframes wobble {
     0% {transform: rotate(10deg);}
     100% {transform: rotate(-10deg);}
+}
+
+@keyframes wobbleCases {
+    0% {transform: rotate(5deg);}
+    100% {transform: rotate(-5deg);}
 }
