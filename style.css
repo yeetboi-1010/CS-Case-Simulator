@@ -60,3 +60,13 @@ body {
     width: auto;
     height: 250px;
 }
+
+#GlobalCaseCounter {
+    display: inline-block;
+    animation: wobble 3s infinite alternate;
+}
+
+@keyframes wobble {
+    0% {transform: rotate(10deg);}
+    100% {transform: rotate(-10deg);}
+}
