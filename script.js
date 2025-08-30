@@ -272,7 +272,7 @@ let DreamsNightmaresCaseDropped = {
         {name: "Huntsman Knife - Bright Water (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-BrightWater.png"},
         {name: "Huntsman Knife - Freehand (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-Freehand.png"},
         {name: "Huntsman Knife - Gamma Doppler (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-GammaDoppler.png"},
-        {name: "Huntsman Knife - Lore (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-Lore.png"}
+        {name: "Huntsman Knife - Lore (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-Lore.png"},
         {name: "Shadow Daggers - Autotronic (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-Autotronic.png"},
         {name: "HShadow Daggers - Black Laminate (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-BlackLaminate.png"},
         {name: "Shadow Daggers - Bright Water (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-BrightWater.png"},
