@@ -18,55 +18,55 @@ let FeverCaseItems = [
 
 let FeverCaseDropped = {
     milSpec: [
-        {name: "P2000 - Sure Grip (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/P2000-SureGrip.png"},
-        {name: "MP9 - Nexus (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/MP9-Nexus.png"},
-        {name: "USP-S - PC-GRN (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/USPS-PCGRN.png"},
-        {name: "SSG 08 - Memorial (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/SSG08-Memorial.png"},
-        {name: "M4A4 - Choppa (Mil-Spec)", img:"Images/Cases/FeverCase/Skins/M4A4-Choppa.png"},
-        {name: "MAG-7 - Resupply (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/MAG7-Resupply.png"},
-        {name: "XM1014 - Mockingbird (Mil-Spec)", img: "Images/Cases/FeverCase/Skins/XM1014-Mockingbird.png"}
+        {name: "P2000 - Sure Grip (Mil-Spec)", price: "$0.26", img: "Images/Cases/FeverCase/Skins/P2000-SureGrip.png"},
+        {name: "MP9 - Nexus (Mil-Spec)", price: "$0.27", img: "Images/Cases/FeverCase/Skins/MP9-Nexus.png"},
+        {name: "USP-S - PC-GRN (Mil-Spec)", price: "$0.67", img: "Images/Cases/FeverCase/Skins/USPS-PCGRN.png"},
+        {name: "SSG 08 - Memorial (Mil-Spec)", price: "$0.32", img: "Images/Cases/FeverCase/Skins/SSG08-Memorial.png"},
+        {name: "M4A4 - Choppa (Mil-Spec)", price: "$0.52", img:"Images/Cases/FeverCase/Skins/M4A4-Choppa.png"},
+        {name: "MAG-7 - Resupply (Mil-Spec)", price: "$0.25", img: "Images/Cases/FeverCase/Skins/MAG7-Resupply.png"},
+        {name: "XM1014 - Mockingbird (Mil-Spec)", price: "$0.26", img: "Images/Cases/FeverCase/Skins/XM1014-Mockingbird.png"}
     ],
     restricted: [
-        {name: "Desert Eagle - Serpent Strike (Restricted)", img: "Images/Cases/FeverCase/Skins/Deagle-SerpentStrike.png"},
-        {name: "Galil AR - Control (Restricted)", img: "Images/Cases/FeverCase/Skins/Galil-Control.png"},
-        {name: "Nova - Rising Sun (Restricted)", img: "Images/Cases/FeverCase/Skins/Nova-RisingSun.png"},
-        {name: "P90 - Wave Breaker (Restricted)", img: "Images/Cases/FeverCase/Skins/P90-WaveBreaker.png"},
-        {name: "Zeus x27 - Tosai (Restricted)", img: "Images/Cases/FeverCase/Skins/ZeusX27-Tosai.png"}
+        {name: "Desert Eagle - Serpent Strike (Restricted)", price: "$1.94", img: "Images/Cases/FeverCase/Skins/Deagle-SerpentStrike.png"},
+        {name: "Galil AR - Control (Restricted)", price: "$1.83", img: "Images/Cases/FeverCase/Skins/Galil-Control.png"},
+        {name: "Nova - Rising Sun (Restricted)", price: "$2.47", img: "Images/Cases/FeverCase/Skins/Nova-RisingSun.png"},
+        {name: "P90 - Wave Breaker (Restricted)", price: "$2.02", img: "Images/Cases/FeverCase/Skins/P90-WaveBreaker.png"},
+        {name: "Zeus x27 - Tosai (Restricted)", price: "$1.78", img: "Images/Cases/FeverCase/Skins/ZeusX27-Tosai.png"}
     ],
     classified: [
-        {name: "Glock-18 - Shinobu (Classified)", img: "Images/Cases/FeverCase/Skins/G18-Shinobu.png"},
-        {name: "AK-47 - Searing Range (Classified)", img: "Images/Cases/FeverCase/Skins/AK-SearingRange.png"},
-        {name: "UMP-45 - K.O. Factory (Classified)", img: "Images/Cases/FeverCase/Skins/UMP45-KoFactory.png"}
+        {name: "Glock-18 - Shinobu (Classified)", price: "$19.89", img: "Images/Cases/FeverCase/Skins/G18-Shinobu.png"},
+        {name: "AK-47 - Searing Range (Classified)", price: "$22.53", img: "Images/Cases/FeverCase/Skins/AK-SearingRange.png"},
+        {name: "UMP-45 - K.O. Factory (Classified)", price: "$14.14", img: "Images/Cases/FeverCase/Skins/UMP45-KoFactory.png"}
     ],
     covert: [
-        {name: "AWP - Prinstream (Covert)", img: "Images/Cases/FeverCase/Skins/AWP-Printstream.png"},
-        {name: "FAMAS - Bad Trip (Covert)", img: "Images/Cases/FeverCase/Skins/FAMAS-BadTrip.png"}
+        {name: "AWP - Prinstream (Covert)", price: "$16.67", img: "Images/Cases/FeverCase/Skins/AWP-Printstream.png"},
+        {name: "FAMAS - Bad Trip (Covert)", price: "$275.29", img: "Images/Cases/FeverCase/Skins/FAMAS-BadTrip.png"}
     ],
     specialItem: [
-        {name: "Skeleton Knife - Marble Fade (Special Item)", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-MarbleFade.png"},
-        {name: "Nomad Knife - Doppler (Special Item)", img: "Images/Cases/FeverCase/Skins/NomadKnife-Doppler.png"},
-        {name: "Paracord Knife - Damascus Steel (Special Item)", img: "Images/Cases/FeverCase/Skins/ParacordKnife-DamascusSteel.png"},
-        {name: "Survival Knife - Tiger Tooth (Special Item)", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-TigerTooth.png"},
-        {name: "Nomad Knife - Damascus Steel (Special Item)", img: "Images/Cases/FeverCase/Skins/NomadKnife-DamascusSteel.png"},
-        {name: "Nomad Knife - Marble Fade (Special Item)", img: "Images/Cases/FeverCase/Skins/NomadKnife-MarbleFade.png"},
-        {name: "Nomad Knife - Rust Coat (Special Item)", img: "Images/Cases/FeverCase/Skins/NomadKnife-RustCoat.png"},
-        {name: "Nomad Knife - Tiger Tooth (Special Item)", img: "Images/Cases/FeverCase/Skins/NomadKnife-TigerTooth.png"},
-        {name: "Nomad Knife - Ultraviolet (Special Item)", img: "Images/Cases/FeverCase/Skins/NomadKnife-Ultraviolet.png"},
-        {name: "Paracord Knife - Doppler (Special Item)", img: "Images/Cases/FeverCase/Skins/ParacordKnife-Doppler.png"},
-        {name: "Paracord Knife - Marble Fade (Special Item)", img: "Images/Cases/FeverCase/Skins/ParacordKnife-MarbleFade.png"},
-        {name: "Paracord Knife - Rust Coat (Special Item)", img: "Images/Cases/FeverCase/Skins/ParacordKnife-RustCoat.png"},
-        {name: "Paracord Knife - Tiger Tooth (Special Item)", img: "Images/Cases/FeverCase/Skins/ParacordKnife-TigerTooth.png"},
-        {name: "Paracord Knife - Ultraviolet (Special Item)", img: "Images/Cases/FeverCase/Skins/ParacordKnife-Ultraviolet.png"},
-        {name: "Skeleton Knife - Damascus Steel (Special Item)", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-DamascusSteel.png"},
-        {name: "Skeleton Knife - Doppler (Special Item)", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-Doppler.png"},
-        {name: "Skeleton Knife - Rust Coat (Special Item)", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-RustCoat.png"},
-        {name: "Skeleton Knife - Tiger Tooth (Special Item)", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-TigerTooth.png"},
-        {name: "Skeleton Knife - Ultraviolet (Special Item)", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-Ultraviolet.png"},
-        {name: "Survival Knife - Damascus Steel (Special Item)", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-DamascusSteel.png"},
-        {name: "Survival Knife - Doppler (Special Item)", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-Doppler.png"},
-        {name: "Survival Knife - Marble Fade (Special Item)", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-MarbleFade.png"},
-        {name: "Survival Knife - Rust Coat (Special Item)", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-RustCoat.png"},
-        {name: "Survival Knife - Ultraviolet (Special Item)", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-Ultraviolet.png"}
+        {name: "Skeleton Knife - Marble Fade (Special Item)", price: "$859.99", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-MarbleFade.png"},
+        {name: "Nomad Knife - Doppler (Special Item)", price: "$817.47", img: "Images/Cases/FeverCase/Skins/NomadKnife-Doppler.png"},
+        {name: "Paracord Knife - Damascus Steel (Special Item)", price: "$140.48", img: "Images/Cases/FeverCase/Skins/ParacordKnife-DamascusSteel.png"},
+        {name: "Survival Knife - Tiger Tooth (Special Item)", price: "$209.00", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-TigerTooth.png"},
+        {name: "Nomad Knife - Damascus Steel (Special Item)", price: "$289.90", img: "Images/Cases/FeverCase/Skins/NomadKnife-DamascusSteel.png"},
+        {name: "Nomad Knife - Marble Fade (Special Item)", price: "$525.34", img: "Images/Cases/FeverCase/Skins/NomadKnife-MarbleFade.png"},
+        {name: "Nomad Knife - Rust Coat (Special Item)", price: "$204.36", img: "Images/Cases/FeverCase/Skins/NomadKnife-RustCoat.png"},
+        {name: "Nomad Knife - Tiger Tooth (Special Item)", price: "$422.56", img: "Images/Cases/FeverCase/Skins/NomadKnife-TigerTooth.png"},
+        {name: "Nomad Knife - Ultraviolet (Special Item)", price: "$546.92", img: "Images/Cases/FeverCase/Skins/NomadKnife-Ultraviolet.png"},
+        {name: "Paracord Knife - Doppler (Special Item)", price: "$395.00", img: "Images/Cases/FeverCase/Skins/ParacordKnife-Doppler.png"},
+        {name: "Paracord Knife - Marble Fade (Special Item)", price: "$276.98", img: "Images/Cases/FeverCase/Skins/ParacordKnife-MarbleFade.png"},
+        {name: "Paracord Knife - Rust Coat (Special Item)", price: "$98.22", img: "Images/Cases/FeverCase/Skins/ParacordKnife-RustCoat.png"},
+        {name: "Paracord Knife - Tiger Tooth (Special Item)", price: "$220.43", img: "Images/Cases/FeverCase/Skins/ParacordKnife-TigerTooth.png"},
+        {name: "Paracord Knife - Ultraviolet (Special Item)", price: "$361.38", img: "Images/Cases/FeverCase/Skins/ParacordKnife-Ultraviolet.png"},
+        {name: "Skeleton Knife - Damascus Steel (Special Item)", price: "$440.00", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-DamascusSteel.png"},
+        {name: "Skeleton Knife - Doppler (Special Item)", price: "$1402.22", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-Doppler.png"},
+        {name: "Skeleton Knife - Rust Coat (Special Item)", price: "$283.59", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-RustCoat.png"},
+        {name: "Skeleton Knife - Tiger Tooth (Special Item)", price: "$666.97", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-TigerTooth.png"},
+        {name: "Skeleton Knife - Ultraviolet (Special Item)", price: "$820.30", img: "Images/Cases/FeverCase/Skins/SkeletonKnife-Ultraviolet.png"},
+        {name: "Survival Knife - Damascus Steel (Special Item)", price: "$138.12", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-DamascusSteel.png"},
+        {name: "Survival Knife - Doppler (Special Item)", price: "$353.87", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-Doppler.png"},
+        {name: "Survival Knife - Marble Fade (Special Item)", price: "$254.86", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-MarbleFade.png"},
+        {name: "Survival Knife - Rust Coat (Special Item)", price: "$112.37", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-RustCoat.png"},
+        {name: "Survival Knife - Ultraviolet (Special Item)", price: "$229.90", img: "Images/Cases/FeverCase/Skins/SurvivalKnife-Ultraviolet.png"}
     ]
 };
 
