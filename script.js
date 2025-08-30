@@ -333,29 +333,27 @@ let HuntsmanWeaponCaseItems = [
 
 let HuntsmanWeaponCaseDropped = {
     milSpec: [
-        {name: "Five-SeveN - Scrawl (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/FiveSeveN-Scrawl.png"},
-        {name: "MAC-10 - Ensnared (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/MAC10-Ensnared.png"},
-        {name: "MAG-7 - Foresight (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/MAG7-Foresight.png"},
-        {name: "MP5-SD - Necro Jr. (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/MP5SD-NecroJr.png"},
-        {name: "P2000 - Lifted Spirits (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/P2000-LiftedSpirits.png"},
-        {name: "Sawed-Off - Spirit Board (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/SawedOff-SpiritBoard.png"},
-        {name: "SCAR-20 - Poultrygeist (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/SCAR20-Poultrygeist.png"}
+        {name: "CZ75-Auto - Twist (Mil-Spec)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/CZ75Auto-Twist.png"},
+        {name: "Galil AR - Kami (Mil-Spec)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/Galil-Kami.png"},
+        {name: "P90 - Module (Mil-Spec)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/P90-Module.png"},
+        {name: "P2000 - Pulse (Mil-Spec)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/P2000-Pulse.png"},
+        {name: "SSG 08 - Slashed (Mil-Spec)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/SSG08-Slashed.png"},
+        {name: "Tec9 - Isaac (Mil-Spec)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/Tec-Isaac.png"}
     ],
     restricted: [
-        {name: "G3SG1 - Dream Glade (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/G3SG1-DreamGlade.png"},
-        {name: "M4A1-S - Night Terror (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/M4A1S-NightTerror.png"},
-        {name: "PP-Bizon - Space Cat (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/PPBizon-SpaceCat.png"},
-        {name: "USP-S - Ticket to Hell (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/USPS-TicketToHell.png"},
-        {name: "XM1014 - Zombie Offensive (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/XM1014-ZombieOffensive.png"}
+        {name: "AUG - Torque (Restricted)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/AUG-Torque.png"},
+        {name: "MAC-10 - Tatter (Restricted)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/MAC10-Tatter.png"},
+        {name: "PP-Bizon - Antique (Restricted)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/PPBizon-Antique.png"},
+        {name: "XM1014 - Heaven Guard (Restricted)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/XM1014-HeavenGuard.png"}
     ],
     classified: [
-        {name: "Dual Berettas - Melondrama (Classified)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresClassified/DualB-Melondrama.png"},
-        {name: "FAMAS - Rapid Eye Movement (Classified)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresClassified/FAMAS-RapidEyeMovement.png"},
-        {name: "MP7 - Abyssal Apparition (Classified)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresClassified/MP7-AbyssalApparition.png"}
+        {name: "M4A1-S - Atomic Alloy (Classified)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponClassified/M4A1S-AtomicAlloy.png"},
+        {name: "SCAR-20 - Cyrex (Classified)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponClassified/SCAR20-Cyrex.png"},
+        {name: "USP-S - Caiman (Classified)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponClassified/USPS-Caiman.png"}
     ],
     covert: [
-        {name: "AK-47 - Nightwish (Covert)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresCovert/AK-Nightwish.png"},
-        {name: "MP9 - Starlight Protector (Covert)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresCovert/MP9-StarlightProtector.png"}
+        {name: "AK-47 - Vulcan (Covert)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponCovert/AK-Vulcan.png"},
+        {name: "M4A4 - Desert Strike (Covert)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponCovert/M4-DesertStrike.png"}
     ],
     specialItem: [
         {name: "Bowie Knife - Autotronic (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-Autotronic.png"},
