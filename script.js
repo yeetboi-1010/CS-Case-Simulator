@@ -309,3 +309,112 @@ function DreamsNightmaresCaseOpened() {
     DreamsNightmaresCaseTotal.innerText = "Total Dreams & Nightmares Cases Opened: " + DreamsNightmaresCasesOpenedTotal
     GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
 }
+
+
+
+
+
+
+
+const OpenHuntsmanWeaponButton = document.getElementById("HuntsmanWeaponOpenButton")
+const HuntsmanWeaponResults = document.getElementById("HuntsmanWeaponResults")
+const HuntsmanWeaponImageDrops = document.getElementById("HuntsmanWeaponDroppedSkinImage")
+const HuntsmanWeaponCaseTotal = document.getElementById("CasesTotalHuntsmanWeapon")
+
+let HuntsmanWeaponCasesOpenedTotal = 0;
+
+let HuntsmanWeaponCaseItems = [
+    {name: "milSpec", chance: 79.92328},
+    {name: "restricted", chance: 15.98465},
+    {name: "classified", chance: 3.19693},
+    {name: "covert", chance: 0.63939},
+    {name: "specialItem", chance: 0.25575}
+]
+
+let HuntsmanWeaponCaseDropped = {
+    milSpec: [
+        {name: "Five-SeveN - Scrawl (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/FiveSeveN-Scrawl.png"},
+        {name: "MAC-10 - Ensnared (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/MAC10-Ensnared.png"},
+        {name: "MAG-7 - Foresight (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/MAG7-Foresight.png"},
+        {name: "MP5-SD - Necro Jr. (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/MP5SD-NecroJr.png"},
+        {name: "P2000 - Lifted Spirits (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/P2000-LiftedSpirits.png"},
+        {name: "Sawed-Off - Spirit Board (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/SawedOff-SpiritBoard.png"},
+        {name: "SCAR-20 - Poultrygeist (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/SCAR20-Poultrygeist.png"}
+    ],
+    restricted: [
+        {name: "G3SG1 - Dream Glade (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/G3SG1-DreamGlade.png"},
+        {name: "M4A1-S - Night Terror (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/M4A1S-NightTerror.png"},
+        {name: "PP-Bizon - Space Cat (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/PPBizon-SpaceCat.png"},
+        {name: "USP-S - Ticket to Hell (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/USPS-TicketToHell.png"},
+        {name: "XM1014 - Zombie Offensive (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/XM1014-ZombieOffensive.png"}
+    ],
+    classified: [
+        {name: "Dual Berettas - Melondrama (Classified)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresClassified/DualB-Melondrama.png"},
+        {name: "FAMAS - Rapid Eye Movement (Classified)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresClassified/FAMAS-RapidEyeMovement.png"},
+        {name: "MP7 - Abyssal Apparition (Classified)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresClassified/MP7-AbyssalApparition.png"}
+    ],
+    covert: [
+        {name: "AK-47 - Nightwish (Covert)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresCovert/AK-Nightwish.png"},
+        {name: "MP9 - Starlight Protector (Covert)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresCovert/MP9-StarlightProtector.png"}
+    ],
+    specialItem: [
+        {name: "Bowie Knife - Autotronic (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-Autotronic.png"},
+        {name: "Bowie Knife - Black Laminate (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-BlackLaminate.png"},
+        {name: "Bowie Knife - Bright Water (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-BrightWater.png"},
+        {name: "Bowie Knife - Freehand (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-Freehand.png"},
+        {name: "Bowie Knife - Gamma Doppler (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-GammaDoppler.png"},
+        {name: "Bowie Knife - Lore (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-Lore.png"},
+        {name: "Butterfly Knife - Autotronic (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-Autotronic.png"},
+        {name: "Butterfly Knife - Black Laminate (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-BlackLaminate.png"},
+        {name: "Butterfly Knife - Bright Water (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-BrightWater.png"},
+        {name: "Butterfly Knife - Freehand (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-Freehand.png"},
+        {name: "Butterfly Knife - Gamma Doppler (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-GammaDoppler.png"},
+        {name: "Butterfly Knife - Lore (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-Lore.png"},
+        {name: "Falchion Knife - Autotronic (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-Autotronic.png"},
+        {name: "Falchion Knife - Black Laminate (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-BlackLaminate.png"},
+        {name: "Falchion Knife - Bright Water (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-BrightWater.png"},
+        {name: "Falchion Knife - Freehand (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-Freehand.png"},
+        {name: "Falchion Knife - Gamma Doppler (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-GammaDoppler.png"},
+        {name: "Falchion Knife - Lore (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-Lore.png"},
+        {name: "Huntsman Knife - Autotronic (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-Autotronic.png"},
+        {name: "Huntsman Knife - Black Laminate (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-BlackLaminate.png"},
+        {name: "Huntsman Knife - Bright Water (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-BrightWater.png"},
+        {name: "Huntsman Knife - Freehand (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-Freehand.png"},
+        {name: "Huntsman Knife - Gamma Doppler (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-GammaDoppler.png"},
+        {name: "Huntsman Knife - Lore (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-Lore.png"},
+        {name: "Shadow Daggers - Autotronic (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-Autotronic.png"},
+        {name: "HShadow Daggers - Black Laminate (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-BlackLaminate.png"},
+        {name: "Shadow Daggers - Bright Water (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-BrightWater.png"},
+        {name: "Shadow Daggers - Freehand (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-Freehand.png"},
+        {name: "Shadow Daggers - Gamma Doppler (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-GammaDoppler.png"},
+        {name: "Shadow Daggers - Lore (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-Lore.png"}
+    ]
+};
+
+OpenHuntsmanWeaponButton.addEventListener("click", HuntsmanWeaponCaseOpened)
+
+function HuntsmanWeaponCaseOpened() {
+    let rollHuntsmanWeapon = Math.random() * 100;
+    let HuntsmanWeaponRunningTotal = 0;
+    let HuntsmanWeaponChosenItem;
+
+    for (let i=0; i < HuntsmanWeaponCaseItems.length; i++) {
+        HuntsmanWeaponRunningTotal += HuntsmanWeaponCaseItems[i].chance
+
+        if (rollHuntsmanWeapon < HuntsmanWeaponRunningTotal) {
+            HuntsmanWeaponChosenItem = HuntsmanWeaponCaseItems[i];
+            break;
+        }
+    }
+
+    let skinsHuntsmanWeapon = HuntsmanWeaponCaseDropped[HuntsmanWeaponChosenItem.name]
+    let randomIndexHuntsmanWeapon = Math.floor(Math.random() * skinsHuntsmanWeapon.length)
+    let HuntsmanWeaponChosenSkin = skinsHuntsmanWeapon[randomIndexHuntsmanWeapon]
+
+    HuntsmanWeaponCasesOpenedTotal = HuntsmanWeaponCasesOpenedTotal + 1;
+    GlobalCasesOpenedTotal = GlobalCasesOpenedTotal + 1;
+    HuntsmanWeaponResults.innerText = HuntsmanWeaponChosenSkin.name;
+    HuntsmanWeaponImageDrops.src = HuntsmanWeaponChosenSkin.img;
+    HuntsmanWeaponCaseTotal.innerText = "Total Huntsman Weapon Cases Opened: " + HuntsmanWeaponCasesOpenedTotal
+    GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
+}
