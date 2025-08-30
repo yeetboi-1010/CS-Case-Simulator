@@ -137,46 +137,46 @@ let RecoilCaseDropped = {
         {name: "Glock 18 - Winterized (Mil-Spec)", price: 0.24, img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/G18-Winterized.png"}
     ],
     restricted: [
-        {name: "Dual Berettas - Flora Carnivora (Restricted)", price: 0.20, img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/DualB-FloraCarnivora.png"},
-        {name: "P90 - Vent Rush (Restricted)", price: 0.20, img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/P90-VentRush.png"},
-        {name: "SG 553 - Dragon Tech (Restricted)", price: 0.20, img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/SG553-DragonTech.png"},
-        {name: "R8 Revolver - Crazy 8 (Restricted)", price: 0.20, img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/R8-Crazy8.png"},
-        {name: "M249 - Downtown (Restricted)", price: 0.20, img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/Downtown.png"}
+        {name: "Dual Berettas - Flora Carnivora (Restricted)", price: 1.76, img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/DualB-FloraCarnivora.png"},
+        {name: "P90 - Vent Rush (Restricted)", price: 1.21, img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/P90-VentRush.png"},
+        {name: "SG 553 - Dragon Tech (Restricted)", price: 1.20, img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/SG553-DragonTech.png"},
+        {name: "R8 Revolver - Crazy 8 (Restricted)", price: 1.49, img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/R8-Crazy8.png"},
+        {name: "M249 - Downtown (Restricted)", price: 1.26, img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/Downtown.png"}
     ],
     classified: [
-        {name: "AK-47 - Ice Coaled (Classified)", img: "Images/Cases/RecoilCase/Skins/RecoilClassified/AK-IceCoaled.png"},
-        {name: "P250 - Visions (Classified)", img: "Images/Cases/RecoilCase/Skins/RecoilClassified/P250-Visions.png"},
-        {name: "Sawed-Off - Kiss♥Love (Classified)", img: "Images/Cases/RecoilCase/Skins/RecoilClassified/SawedOff-KissLove.png"}
+        {name: "AK-47 - Ice Coaled (Classified)", price: 13.40, img: "Images/Cases/RecoilCase/Skins/RecoilClassified/AK-IceCoaled.png"},
+        {name: "P250 - Visions (Classified)", price: 8.83, img: "Images/Cases/RecoilCase/Skins/RecoilClassified/P250-Visions.png"},
+        {name: "Sawed-Off - Kiss♥Love (Classified)", price: 10.36, img: "Images/Cases/RecoilCase/Skins/RecoilClassified/SawedOff-KissLove.png"}
     ],
     covert: [
-        {name: "AWP - Chromatic Aberration (Covert)", img: "Images/Cases/RecoilCase/Skins/RecoilCovert/AWP-ChromaticAberration.png"},
-        {name: "USP-S - Printstream (Covert)", img: "Images/Cases/RecoilCase/Skins/RecoilCovert/USPS-Printstream.png"}
+        {name: "AWP - Chromatic Aberration (Covert)", price: 22.33, img: "Images/Cases/RecoilCase/Skins/RecoilCovert/AWP-ChromaticAberration.png"},
+        {name: "USP-S - Printstream (Covert)", price: 115.69, img: "Images/Cases/RecoilCase/Skins/RecoilCovert/USPS-Printstream.png"}
     ],
     specialItem: [
-        {name: "Broken Fang Gloves - Jade (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/BrokenFangGloves-Jade.png"},
-        {name: "Broken Fang Gloves - Needle Point (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/BrokenFangGloves-NeedlePoint.png"},
-        {name: "Broken Fang Gloves - Unhinged (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/BrokenFangGloves-Unhinged.png"},
-        {name: "Broken Fang Gloves - Yellow-Banded (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/BrokenFangGloves-YellowBanded.png"},
-        {name: "Driver Gloves - Black Tie (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/DriverGloves-BlackTie.png"},
-        {name: "Driver Gloves - Queen Jaguar (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/DriverGloves-QueenJaguar.png"},
-        {name: "Driver Gloves - Snow Leopard (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/DriverGloves-SnowLeopard.png"},
-        {name: "Driver Gloves - Rezan the Red (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/DrivingGloves-RezanRed.png"},
-        {name: "Hand Wraps - CAUTION! (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/HandWraps-Caution.png"},
-        {name: "Hand Wraps - Constrictor (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/HandWraps-Constrictor.png"},
-        {name: "Hand Wraps - Desert Shamagh (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/HandWraps-DesertShamagh.png"},
-        {name: "Hand Wraps - Giraffe (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/HandWraps-Giraffe.png"},
-        {name: "Moto Gloves - 3rd Commando Company (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/MotoGloves-3rdCommandoCompany.png"},
-        {name: "Moto Gloves - Blood Pressure (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/MotoGloves-BloodPressure.png"},
-        {name: "Moto Gloves - Finish Line (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/MotoGloves-FinishLine.png"},
-        {name: "Moto Gloves - Smoke Out (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/MotoGloves-SmokeOut.png"},
-        {name: "Specialist Gloves - Field Agent (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SpecialistGloves-FieldAgent.png"},
-        {name: "Specialist Gloves - Lt. Commander (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SpecialistGloves-LtCommander.png"},
-        {name: "Specialist Gloves - Marble Fade (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SpecialistGloves-MarbleFade.png"},
-        {name: "Specialist Gloves - Tiger Strike (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SpecialistGloves-TigerStrike.png"},
-        {name: "Sport Gloves - Big Game (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SportGloves-BigGame.png"},
-        {name: "Sport Gloves - Nocts (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SportGloves-Nocts.png"},
-        {name: "Sport Gloves - Scarlet Shamagh (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SportGloves-ScarletShamagh.png"},
-        {name: "Sport Gloves - Slingshot (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SportGloves-Slingshot.png"}
+        {name: "Broken Fang Gloves - Jade (Special Item)", price: 783.36, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/BrokenFangGloves-Jade.png"},
+        {name: "Broken Fang Gloves - Needle Point (Special Item)", price: 337.49, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/BrokenFangGloves-NeedlePoint.png"},
+        {name: "Broken Fang Gloves - Unhinged (Special Item)", price: 469.28, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/BrokenFangGloves-Unhinged.png"},
+        {name: "Broken Fang Gloves - Yellow-Banded (Special Item)", price: 453.17, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/BrokenFangGloves-YellowBanded.png"},
+        {name: "Driver Gloves - Black Tie (Special Item)", price: 2384.02, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/DriverGloves-BlackTie.png"},
+        {name: "Driver Gloves - Queen Jaguar (Special Item)", price: 668.92, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/DriverGloves-QueenJaguar.png"},
+        {name: "Driver Gloves - Snow Leopard (Special Item)", price: 3430.89, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/DriverGloves-SnowLeopard.png"},
+        {name: "Driver Gloves - Rezan the Red (Special Item)", price: 906.77, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/DrivingGloves-RezanRed.png"},
+        {name: "Hand Wraps - CAUTION! (Special Item)", price: 1191.11, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/HandWraps-Caution.png"},
+        {name: "Hand Wraps - Constrictor (Special Item)", price: 416.26, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/HandWraps-Constrictor.png"},
+        {name: "Hand Wraps - Desert Shamagh (Special Item)", price: 655.00, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/HandWraps-DesertShamagh.png"},
+        {name: "Hand Wraps - Giraffe (Special Item)", price: 450.00, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/HandWraps-Giraffe.png"},
+        {name: "Moto Gloves - 3rd Commando Company (Special Item)", price: 378.28, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/MotoGloves-3rdCommandoCompany.png"},
+        {name: "Moto Gloves - Blood Pressure (Special Item)", price: 1017.64, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/MotoGloves-BloodPressure.png"},
+        {name: "Moto Gloves - Finish Line (Special Item)", price: 1070.65, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/MotoGloves-FinishLine.png"},
+        {name: "Moto Gloves - Smoke Out (Special Item)", price: 1121.89, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/MotoGloves-SmokeOut.png"},
+        {name: "Specialist Gloves - Field Agent (Special Item)", price: 2090.00, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SpecialistGloves-FieldAgent.png"},
+        {name: "Specialist Gloves - Lt. Commander (Special Item)", price: 1142.88, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SpecialistGloves-LtCommander.png"},
+        {name: "Specialist Gloves - Marble Fade (Special Item)", price: 3054.35, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SpecialistGloves-MarbleFade.png"},
+        {name: "Specialist Gloves - Tiger Strike (Special Item)", price: 2519.99, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SpecialistGloves-TigerStrike.png"},
+        {name: "Sport Gloves - Big Game (Special Item)", price: 1402.36, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SportGloves-BigGame.png"},
+        {name: "Sport Gloves - Nocts (Special Item)", price: 4136.98, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SportGloves-Nocts.png"},
+        {name: "Sport Gloves - Scarlet Shamagh (Special Item)", price: 1892.91, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SportGloves-ScarletShamagh.png"},
+        {name: "Sport Gloves - Slingshot (Special Item)", price: 7095.97, img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SportGloves-Slingshot.png"}
     ]
 };
 
@@ -202,10 +202,13 @@ function RecoilCaseOpened() {
 
     RecoilCasesOpenedTotal = RecoilCasesOpenedTotal + 1;
     GlobalCasesOpenedTotal = GlobalCasesOpenedTotal + 1;
+    GlobalPricesNumber = GlobalPricesNumber + ChosenSkin.price;
+    GlobalPricesNumberRounded = Math.round(GlobalPricesNumber * 100) / 100;
     RecoilResults.innerText = RecoilChosenSkin.name;
     RecoilImageDrops.src = RecoilChosenSkin.img;
     RecoilCaseTotal.innerText = "Total Recoil Cases Opened: " + RecoilCasesOpenedTotal
     GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
+    GlobalPricesText.innerText = "Cost of unboxed skins: $" + GlobalPricesNumberRounded
 }
 
 
