@@ -202,7 +202,7 @@ function RecoilCaseOpened() {
 
     RecoilCasesOpenedTotal = RecoilCasesOpenedTotal + 1;
     GlobalCasesOpenedTotal = GlobalCasesOpenedTotal + 1;
-    GlobalPricesNumber = GlobalPricesNumber + ChosenSkin.price;
+    GlobalPricesNumber = GlobalPricesNumber + RecoilChosenSkin.price;
     GlobalPricesNumberRounded = Math.round(GlobalPricesNumber * 100) / 100;
     RecoilResults.innerText = RecoilChosenSkin.name;
     RecoilImageDrops.src = RecoilChosenSkin.img;
