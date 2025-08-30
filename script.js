@@ -240,13 +240,13 @@ let DreamsNightmaresCaseDropped = {
         {name: "XM1014 - Zombie Offensive (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/XM1014-ZombieOffensive.png"}
     ],
     classified: [
-        {name: "AK-47 - Ice Coaled (Classified)", img: "Images/Cases/RecoilCase/Skins/RecoilClassified/AK-IceCoaled.png"},
-        {name: "P250 - Visions (Classified)", img: "Images/Cases/RecoilCase/Skins/RecoilClassified/P250-Visions.png"},
-        {name: "Sawed Off - Kiss♥Love (Classified)", img: "Images/Cases/RecoilCase/Skins/RecoilClassified/SawedOff-KissLove.png"}
+        {name: "Dual Berettas - Melondrama (Classified)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresClassified/DualB-Melondrama.png"},
+        {name: "FAMAS - Rapid Eye Movement (Classified)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresClassified/FAMAS-RapidEyeMovement.png"},
+        {name: "MP7 - Abyssal Apparition (Classified)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresClassified/MP7-AbyssalApparition.png"}
     ],
     covert: [
-        {name: "AWP - Chromatic Aberration (Covert)", img: "Images/Cases/RecoilCase/Skins/RecoilCovert/AWP-ChromaticAberration.png"},
-        {name: "USP-S - Printstream (Covert)", img: "Images/Cases/RecoilCase/Skins/RecoilCovert/USPS-Printstream.png"}
+        {name: "AK-47 - Nightwish (Covert)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresCovert/AK-Nightwish.png"},
+        {name: "MP9 - Starlight Protector (Covert)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresCovert/MP9-StarlightProtector.png"}
     ],
     specialItem: [
         {name: "Broken Fang Gloves - Jade (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/BrokenFangGloves-Jade.png"},
