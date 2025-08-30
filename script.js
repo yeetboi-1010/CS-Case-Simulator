@@ -126,7 +126,7 @@ let RecoilCaseDropped = {
         {name: "UMP-45 - Roadblock (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/UMP45-Roadblock.png"},
         {name: "Negev - Drop Me (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/Negev-DropMe.png"},
         {name: "FAMAS - Meow 36 (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/FAMAS-Meow36.png"},
-        {name: "Galil AR - Destroyer (Mil-Spec)", img:"Images/Cases/RecoilCase/Skins/RecoilMilSpec/Galil-Destroyer.png"},
+        {name: "Galil AR - Destroyer (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/Galil-Destroyer.png"},
         {name: "M4A4 - Poly Mag (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/M4-PolyMag.png"},
         {name: "Glock 18 - Winterized (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/G18-Winterized.png"}
     ],
@@ -140,7 +140,7 @@ let RecoilCaseDropped = {
     classified: [
         {name: "AK-47 - Ice Coaled (Classified)", img: "Images/Cases/RecoilCase/Skins/RecoilClassified/AK-IceCoaled.png"},
         {name: "P250 - Visions (Classified)", img: "Images/Cases/RecoilCase/Skins/RecoilClassified/P250-Visions.png"},
-        {name: "Sawed Off - Kiss♥Love (Classified)", img: "Images/Cases/RecoilCase/Skins/RecoilClassified/SawedOff-KissLove.png"}
+        {name: "Sawed-Off - Kiss♥Love (Classified)", img: "Images/Cases/RecoilCase/Skins/RecoilClassified/SawedOff-KissLove.png"}
     ],
     covert: [
         {name: "AWP - Chromatic Aberration (Covert)", img: "Images/Cases/RecoilCase/Skins/RecoilCovert/AWP-ChromaticAberration.png"},
@@ -224,20 +224,20 @@ let DreamsNightmaresCaseItems = [
 
 let DreamsNightmaresCaseDropped = {
     milSpec: [
-        {name: "MAC-10 - Monkeyflage (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/MAC10-Monkeyflage.png"},
-        {name: "UMP-45 - Roadblock (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/UMP45-Roadblock.png"},
-        {name: "Negev - Drop Me (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/Negev-DropMe.png"},
-        {name: "FAMAS - Meow 36 (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/FAMAS-Meow36.png"},
-        {name: "Galil AR - Destroyer (Mil-Spec)", img:"Images/Cases/RecoilCase/Skins/RecoilMilSpec/Galil-Destroyer.png"},
-        {name: "M4A4 - Poly Mag (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/M4-PolyMag.png"},
-        {name: "Glock 18 - Winterized (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/G18-Winterized.png"}
+        {name: "Five-SeveN - Scrawl (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/FiveSeveN-Scrawl.png"},
+        {name: "MAC-10 - Ensnared (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/MAC10-Ensnared.png"},
+        {name: "MAG-7 - Foresight (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/MAG7-Foresight.png"},
+        {name: "MP5-SD - Necro Jr. (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/MP5SD-NecroJr.png"},
+        {name: "P2000 - Lifted Spirits (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/P2000-LiftedSpirits.png"},
+        {name: "Sawed-Off - Spirit Board (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/SawedOff-SpiritBoard.png"},
+        {name: "SCAR-20 - Poultrygeist (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/SCAR20-Poultrygeist.png"}
     ],
     restricted: [
-        {name: "Dual Berettas - Flora Carnivora (Restricted)", img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/DualB-FloraCarnivora.png"},
-        {name: "P90 - Vent Rush (Restricted)", img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/P90-VentRush.png"},
-        {name: "SG 553 - Dragon Tech (Restricted)", img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/SG553-DragonTech.png"},
-        {name: "R8 Revolver - Crazy 8 (Restricted)", img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/R8-Crazy8.png"},
-        {name: "M249 - Downtown (Restricted)", img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/Downtown.png"}
+        {name: "G3SG1 - Dream Glade (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/G3SG1-DreamGlade.png"},
+        {name: "M4A1-S - Night Terror (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/M4A1S-NightTerror.png"},
+        {name: "PP-Bizon - Space Cat (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/PPBizon-SpaceCat.png"},
+        {name: "USP-S - Ticket to Hell (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/USPS-TicketToHell.png"},
+        {name: "XM1014 - Zombie Offensive (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/XM1014-ZombieOffensive.png"}
     ],
     classified: [
         {name: "AK-47 - Ice Coaled (Classified)", img: "Images/Cases/RecoilCase/Skins/RecoilClassified/AK-IceCoaled.png"},
