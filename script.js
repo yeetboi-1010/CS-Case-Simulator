@@ -201,3 +201,105 @@ function RecoilCaseOpened() {
     RecoilCaseTotal.innerText = "Total Recoil Cases Opened: " + RecoilCasesOpenedTotal
     GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
 }
+
+
+
+
+
+
+const OpenDreamsNightmaresButton = document.getElementById("DreamsNightmaresOpenButton")
+const DreamsNightmaresResults = document.getElementById("DreamsNightmaresResults")
+const DreamsNightmaresImageDrops = document.getElementById("DreamsNightmaresDroppedSkinImage")
+const DreamsNightmaresCaseTotal = document.getElementById("CasesTotalDreamsNightmares")
+
+let DreamsNightmaresCasesOpenedTotal = 0;
+
+let DreamsNightmaresCaseItems = [
+    {name: "milSpec", chance: 79.92328},
+    {name: "restricted", chance: 15.98465},
+    {name: "classified", chance: 3.19693},
+    {name: "covert", chance: 0.63939},
+    {name: "specialItem", chance: 0.25575}
+]
+
+let DreamsNightmaresCaseDropped = {
+    milSpec: [
+        {name: "MAC-10 - Monkeyflage (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/MAC10-Monkeyflage.png"},
+        {name: "UMP-45 - Roadblock (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/UMP45-Roadblock.png"},
+        {name: "Negev - Drop Me (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/Negev-DropMe.png"},
+        {name: "FAMAS - Meow 36 (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/FAMAS-Meow36.png"},
+        {name: "Galil AR - Destroyer (Mil-Spec)", img:"Images/Cases/RecoilCase/Skins/RecoilMilSpec/Galil-Destroyer.png"},
+        {name: "M4A4 - Poly Mag (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/M4-PolyMag.png"},
+        {name: "Glock 18 - Winterized (Mil-Spec)", img: "Images/Cases/RecoilCase/Skins/RecoilMilSpec/G18-Winterized.png"}
+    ],
+    restricted: [
+        {name: "Dual Berettas - Flora Carnivora (Restricted)", img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/DualB-FloraCarnivora.png"},
+        {name: "P90 - Vent Rush (Restricted)", img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/P90-VentRush.png"},
+        {name: "SG 553 - Dragon Tech (Restricted)", img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/SG553-DragonTech.png"},
+        {name: "R8 Revolver - Crazy 8 (Restricted)", img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/R8-Crazy8.png"},
+        {name: "M249 - Downtown (Restricted)", img: "Images/Cases/RecoilCase/Skins/RecoilRestricted/Downtown.png"}
+    ],
+    classified: [
+        {name: "AK-47 - Ice Coaled (Classified)", img: "Images/Cases/RecoilCase/Skins/RecoilClassified/AK-IceCoaled.png"},
+        {name: "P250 - Visions (Classified)", img: "Images/Cases/RecoilCase/Skins/RecoilClassified/P250-Visions.png"},
+        {name: "Sawed Off - Kiss♥Love (Classified)", img: "Images/Cases/RecoilCase/Skins/RecoilClassified/SawedOff-KissLove.png"}
+    ],
+    covert: [
+        {name: "AWP - Chromatic Aberration (Covert)", img: "Images/Cases/RecoilCase/Skins/RecoilCovert/AWP-ChromaticAberration.png"},
+        {name: "USP-S - Printstream (Covert)", img: "Images/Cases/RecoilCase/Skins/RecoilCovert/USPS-Printstream.png"}
+    ],
+    specialItem: [
+        {name: "Broken Fang Gloves - Jade (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/BrokenFangGloves-Jade.png"},
+        {name: "Broken Fang Gloves - Needle Point (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/BrokenFangGloves-NeedlePoint.png"},
+        {name: "Broken Fang Gloves - Unhinged (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/BrokenFangGloves-Unhinged.png"},
+        {name: "Broken Fang Gloves - Yellow-Banded (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/BrokenFangGloves-YellowBanded.png"},
+        {name: "Driver Gloves - Black Tie (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/DriverGloves-BlackTie.png"},
+        {name: "Driver Gloves - Queen Jaguar (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/DriverGloves-QueenJaguar.png"},
+        {name: "Driver Gloves - Snow Leopard (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/DriverGloves-SnowLeopard.png"},
+        {name: "Driver Gloves - Rezan the Red (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/DrivingGloves-RezanRed.png"},
+        {name: "Hand Wraps - CAUTION! (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/HandWraps-Caution.png"},
+        {name: "Hand Wraps - Constrictor (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/HandWraps-Constrictor.png"},
+        {name: "Hand Wraps - Desert Shamagh (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/HandWraps-DesertShamagh.png"},
+        {name: "Hand Wraps - Giraffe (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/HandWraps-Giraffe.png"},
+        {name: "Moto Gloves - 3rd Commando Company (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/MotoGloves-3rdCommandoCompany.png"},
+        {name: "Moto Gloves - Blood Pressure (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/MotoGloves-BloodPressure.png"},
+        {name: "Moto Gloves - Finish Line (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/MotoGloves-FinishLine.png"},
+        {name: "Moto Gloves - Smoke Out (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/MotoGloves-SmokeOut.png"},
+        {name: "Specialist Gloves - Field Agent (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SpecialistGloves-FieldAgent.png"},
+        {name: "Specialist Gloves - Lt. Commander (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SpecialistGloves-LtCommander.png"},
+        {name: "Specialist Gloves - Marble Fade (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SpecialistGloves-MarbleFade.png"},
+        {name: "Specialist Gloves - Tiger Strike (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SpecialistGloves-TigerStrike.png"},
+        {name: "Sport Gloves - Big Game (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SportGloves-BigGame.png"},
+        {name: "Sport Gloves - Nocts (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SportGloves-Nocts.png"},
+        {name: "Sport Gloves - Scarlet Shamagh (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SportGloves-ScarletShamagh.png"},
+        {name: "Sport Gloves - Slingshot (Special Item)", img: "Images/Cases/RecoilCase/Skins/RecoilSpecialItems/SportGloves-Slingshot.png"}
+    ]
+};
+
+OpenDreamsNightmaresButton.addEventListener("click", DreamsNightmaresCaseOpened)
+
+function DreamsNightmaresCaseOpened() {
+    let rollDreamsNightmares = Math.random() * 100;
+    let DreamsNightmaresRunningTotal = 0;
+    let DreamsNightmaresChosenItem;
+
+    for (let i=0; i < DreamsNightmaresCaseItems.length; i++) {
+        DreamsNightmaresRunningTotal += DreamsNightmaresCaseItems[i].chance
+
+        if (rollDreamsNightmares < DreamsNightmaresRunningTotal) {
+            DreamsNightmaresChosenItem = DreamsNightmaresCaseItems[i];
+            break;
+        }
+    }
+
+    let skinsDreamsNightmares = DreamsNightmaresCaseDropped[DreamsNightmaresChosenItem.name]
+    let randomIndexDreamsNightmares = Math.floor(Math.random() * skinsDreamsNightmares.length)
+    let DreamsNightmaresChosenSkin = skinsDreamsNightmares[randomIndexDreamsNightmares]
+
+    DreamsNightmaresCasesOpenedTotal = DreamsNightmaresCasesOpenedTotal + 1;
+    GlobalCasesOpenedTotal = GlobalCasesOpenedTotal + 1;
+    DreamsNightmaresResults.innerText = DreamsNightmaresChosenSkin.name;
+    DreamsNightmaresImageDrops.src = DreamsNightmaresChosenSkin.img;
+    DreamsNightmaresCaseTotal.innerText = "Total Dreams & Nightmares Cases Opened: " + DreamsNightmaresCasesOpenedTotal
+    GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
+}
