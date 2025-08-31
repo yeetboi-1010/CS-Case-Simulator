@@ -233,61 +233,61 @@ let DreamsNightmaresCaseItems = [
 
 let DreamsNightmaresCaseDropped = {
     milSpec: [
-        {name: "Five-SeveN - Scrawl (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/FiveSeveN-Scrawl.png"},
-        {name: "MAC-10 - Ensnared (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/MAC10-Ensnared.png"},
-        {name: "MAG-7 - Foresight (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/MAG7-Foresight.png"},
-        {name: "MP5-SD - Necro Jr. (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/MP5SD-NecroJr.png"},
-        {name: "P2000 - Lifted Spirits (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/P2000-LiftedSpirits.png"},
-        {name: "Sawed-Off - Spirit Board (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/SawedOff-SpiritBoard.png"},
-        {name: "SCAR-20 - Poultrygeist (Mil-Spec)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/SCAR20-Poultrygeist.png"}
+        {name: "Five-SeveN - Scrawl (Mil-Spec)", price: 0.25, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/FiveSeveN-Scrawl.png"},
+        {name: "MAC-10 - Ensnared (Mil-Spec)", price: 0.25, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/MAC10-Ensnared.png"},
+        {name: "MAG-7 - Foresight (Mil-Spec)", price: 0.17, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/MAG7-Foresight.png"},
+        {name: "MP5-SD - Necro Jr. (Mil-Spec)", price: 0.20, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/MP5SD-NecroJr.png"},
+        {name: "P2000 - Lifted Spirits (Mil-Spec)", price: 0.20, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/P2000-LiftedSpirits.png"},
+        {name: "Sawed-Off - Spirit Board (Mil-Spec)", price: 0.19, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/SawedOff-SpiritBoard.png"},
+        {name: "SCAR-20 - Poultrygeist (Mil-Spec)", price: 0.17, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresMilSpec/SCAR20-Poultrygeist.png"}
     ],
     restricted: [
-        {name: "G3SG1 - Dream Glade (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/G3SG1-DreamGlade.png"},
-        {name: "M4A1-S - Night Terror (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/M4A1S-NightTerror.png"},
-        {name: "PP-Bizon - Space Cat (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/PPBizon-SpaceCat.png"},
-        {name: "USP-S - Ticket to Hell (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/USPS-TicketToHell.png"},
-        {name: "XM1014 - Zombie Offensive (Restricted)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/XM1014-ZombieOffensive.png"}
+        {name: "G3SG1 - Dream Glade (Restricted)", price: 1.08, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/G3SG1-DreamGlade.png"},
+        {name: "M4A1-S - Night Terror (Restricted)", price: 1.69, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/M4A1S-NightTerror.png"},
+        {name: "PP-Bizon - Space Cat (Restricted)", price: 1.03, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/PPBizon-SpaceCat.png"},
+        {name: "USP-S - Ticket to Hell (Restricted)", price: 1.39, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/USPS-TicketToHell.png"},
+        {name: "XM1014 - Zombie Offensive (Restricted)", price: 0.97, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresRestricted/XM1014-ZombieOffensive.png"}
     ],
     classified: [
-        {name: "Dual Berettas - Melondrama (Classified)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresClassified/DualB-Melondrama.png"},
-        {name: "FAMAS - Rapid Eye Movement (Classified)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresClassified/FAMAS-RapidEyeMovement.png"},
-        {name: "MP7 - Abyssal Apparition (Classified)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresClassified/MP7-AbyssalApparition.png"}
+        {name: "Dual Berettas - Melondrama (Classified)", price: 8.10, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresClassified/DualB-Melondrama.png"},
+        {name: "FAMAS - Rapid Eye Movement (Classified)", price: 8.01, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresClassified/FAMAS-RapidEyeMovement.png"},
+        {name: "MP7 - Abyssal Apparition (Classified)", price: 7.31, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresClassified/MP7-AbyssalApparition.png"}
     ],
     covert: [
-        {name: "AK-47 - Nightwish (Covert)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresCovert/AK-Nightwish.png"},
-        {name: "MP9 - Starlight Protector (Covert)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresCovert/MP9-StarlightProtector.png"}
+        {name: "AK-47 - Nightwish (Covert)", price: 69.66, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresCovert/AK-Nightwish.png"},
+        {name: "MP9 - Starlight Protector (Covert)", price: 16.33, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresCovert/MP9-StarlightProtector.png"}
     ],
     specialItem: [
-        {name: "Bowie Knife - Autotronic (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-Autotronic.png"},
-        {name: "Bowie Knife - Black Laminate (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-BlackLaminate.png"},
-        {name: "Bowie Knife - Bright Water (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-BrightWater.png"},
-        {name: "Bowie Knife - Freehand (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-Freehand.png"},
-        {name: "Bowie Knife - Gamma Doppler (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-GammaDoppler.png"},
-        {name: "Bowie Knife - Lore (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-Lore.png"},
-        {name: "Butterfly Knife - Autotronic (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-Autotronic.png"},
-        {name: "Butterfly Knife - Black Laminate (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-BlackLaminate.png"},
-        {name: "Butterfly Knife - Bright Water (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-BrightWater.png"},
-        {name: "Butterfly Knife - Freehand (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-Freehand.png"},
-        {name: "Butterfly Knife - Gamma Doppler (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-GammaDoppler.png"},
-        {name: "Butterfly Knife - Lore (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-Lore.png"},
-        {name: "Falchion Knife - Autotronic (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-Autotronic.png"},
-        {name: "Falchion Knife - Black Laminate (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-BlackLaminate.png"},
-        {name: "Falchion Knife - Bright Water (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-BrightWater.png"},
-        {name: "Falchion Knife - Freehand (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-Freehand.png"},
-        {name: "Falchion Knife - Gamma Doppler (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-GammaDoppler.png"},
-        {name: "Falchion Knife - Lore (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-Lore.png"},
-        {name: "Huntsman Knife - Autotronic (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-Autotronic.png"},
-        {name: "Huntsman Knife - Black Laminate (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-BlackLaminate.png"},
-        {name: "Huntsman Knife - Bright Water (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-BrightWater.png"},
-        {name: "Huntsman Knife - Freehand (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-Freehand.png"},
-        {name: "Huntsman Knife - Gamma Doppler (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-GammaDoppler.png"},
-        {name: "Huntsman Knife - Lore (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-Lore.png"},
-        {name: "Shadow Daggers - Autotronic (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-Autotronic.png"},
-        {name: "HShadow Daggers - Black Laminate (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-BlackLaminate.png"},
-        {name: "Shadow Daggers - Bright Water (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-BrightWater.png"},
-        {name: "Shadow Daggers - Freehand (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-Freehand.png"},
-        {name: "Shadow Daggers - Gamma Doppler (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-GammaDoppler.png"},
-        {name: "Shadow Daggers - Lore (Special Item)", img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-Lore.png"}
+        {name: "Bowie Knife - Autotronic (Special Item)", price: 263.56, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-Autotronic.png"},
+        {name: "Bowie Knife - Black Laminate (Special Item)", price: 170.80, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-BlackLaminate.png"},
+        {name: "Bowie Knife - Bright Water (Special Item)", price: 144.47, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-BrightWater.png"},
+        {name: "Bowie Knife - Freehand (Special Item)", price: 167.00, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-Freehand.png"},
+        {name: "Bowie Knife - Gamma Doppler (Special Item)", price: 410.45, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-GammaDoppler.png"},
+        {name: "Bowie Knife - Lore (Special Item)", price: 349.96, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/BowieKnife-Lore.png"},
+        {name: "Butterfly Knife - Autotronic (Special Item)", price: 2895.00, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-Autotronic.png"},
+        {name: "Butterfly Knife - Black Laminate (Special Item)", price: 1653.11, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-BlackLaminate.png"},
+        {name: "Butterfly Knife - Bright Water (Special Item)", price: 1160.81, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-BrightWater.png"},
+        {name: "Butterfly Knife - Freehand (Special Item)", price: 1324.82, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-Freehand.png"},
+        {name: "Butterfly Knife - Gamma Doppler (Special Item)", price: 4425.00, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-GammaDoppler.png"},
+        {name: "Butterfly Knife - Lore (Special Item)", price: 4185.50, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ButterflyKnife-Lore.png"},
+        {name: "Falchion Knife - Autotronic (Special Item)", price: 276.32, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-Autotronic.png"},
+        {name: "Falchion Knife - Black Laminate (Special Item)", price: 176.62, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-BlackLaminate.png"},
+        {name: "Falchion Knife - Bright Water (Special Item)", price: 159.91, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-BrightWater.png"},
+        {name: "Falchion Knife - Freehand (Special Item)", price: 176.39, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-Freehand.png"},
+        {name: "Falchion Knife - Gamma Doppler (Special Item)", price: 434.66, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-GammaDoppler.png"},
+        {name: "Falchion Knife - Lore (Special Item)", price: 247.00, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/FalchionKnife-Lore.png"},
+        {name: "Huntsman Knife - Autotronic (Special Item)", price: 334.27, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-Autotronic.png"},
+        {name: "Huntsman Knife - Black Laminate (Special Item)", price: 224.62, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-BlackLaminate.png"},
+        {name: "Huntsman Knife - Bright Water (Special Item)", price: 151.38, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-BrightWater.png"},
+        {name: "Huntsman Knife - Freehand (Special Item)", price: 165.75, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-Freehand.png"},
+        {name: "Huntsman Knife - Gamma Doppler (Special Item)", price: 455.06, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-GammaDoppler.png"},
+        {name: "Huntsman Knife - Lore (Special Item)", price: 258.95, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/HuntsmanKnife-Lore.png"},
+        {name: "Shadow Daggers - Autotronic (Special Item)", price: 158.05, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-Autotronic.png"},
+        {name: "Shadow Daggers - Black Laminate (Special Item)", price: 120.56, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-BlackLaminate.png"},
+        {name: "Shadow Daggers - Bright Water (Special Item)", price: 91.62, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-BrightWater.png"},
+        {name: "Shadow Daggers - Freehand (Special Item)", price: 122.69, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-Freehand.png"},
+        {name: "Shadow Daggers - Gamma Doppler (Special Item)", price: 187.97, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-GammaDoppler.png"},
+        {name: "Shadow Daggers - Lore (Special Item)", price: 209.09, img: "Images/Cases/DreamsNightmaresCase/Skins/DreamsNightmaresSpecialItems/ShadowDaggers-Lore.png"}
     ]
 };
 
@@ -313,10 +313,13 @@ function DreamsNightmaresCaseOpened() {
 
     DreamsNightmaresCasesOpenedTotal = DreamsNightmaresCasesOpenedTotal + 1;
     GlobalCasesOpenedTotal = GlobalCasesOpenedTotal + 1;
+    GlobalPricesNumber = GlobalPricesNumber + DreamsNightmaresChosenSkin.price;
+    GlobalPricesNumberRounded = Math.round(GlobalPricesNumber * 100) / 100;
     DreamsNightmaresResults.innerText = DreamsNightmaresChosenSkin.name;
     DreamsNightmaresImageDrops.src = DreamsNightmaresChosenSkin.img;
     DreamsNightmaresCaseTotal.innerText = "Total Dreams & Nightmares Cases Opened: " + DreamsNightmaresCasesOpenedTotal
     GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
+    GlobalPricesText.innerText = "Cost of unboxed skins: $" + GlobalPricesNumberRounded
 }
 
 
@@ -342,42 +345,42 @@ let HuntsmanWeaponCaseItems = [
 
 let HuntsmanWeaponCaseDropped = {
     milSpec: [
-        {name: "CZ75-Auto - Twist (Mil-Spec)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/CZ75Auto-Twist.png"},
-        {name: "Galil AR - Kami (Mil-Spec)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/Galil-Kami.png"},
-        {name: "P90 - Module (Mil-Spec)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/P90-Module.png"},
-        {name: "P2000 - Pulse (Mil-Spec)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/P2000-Pulse.png"},
-        {name: "SSG 08 - Slashed (Mil-Spec)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/SSG08-Slashed.png"},
-        {name: "Tec9 - Isaac (Mil-Spec)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/Tec-Isaac.png"}
+        {name: "CZ75-Auto - Twist (Mil-Spec)", price: 2.22, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/CZ75Auto-Twist.png"},
+        {name: "Galil AR - Kami (Mil-Spec)", price: 3.83, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/Galil-Kami.png"},
+        {name: "P90 - Module (Mil-Spec)", price: 1.72, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/P90-Module.png"},
+        {name: "P2000 - Pulse (Mil-Spec)", price: 1.85, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/P2000-Pulse.png"},
+        {name: "SSG 08 - Slashed (Mil-Spec)", price: 1.28, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/SSG08-Slashed.png"},
+        {name: "Tec-9 - Isaac (Mil-Spec)", price: 13.68, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/Tec-Isaac.png"}
     ],
     restricted: [
-        {name: "AUG - Torque (Restricted)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/AUG-Torque.png"},
-        {name: "MAC-10 - Tatter (Restricted)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/MAC10-Tatter.png"},
-        {name: "PP-Bizon - Antique (Restricted)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/PPBizon-Antique.png"},
-        {name: "XM1014 - Heaven Guard (Restricted)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/XM1014-HeavenGuard.png"}
+        {name: "AUG - Torque (Restricted)", price: 11.55, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/AUG-Torque.png"},
+        {name: "MAC-10 - Tatter (Restricted)", price: 11.77, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/MAC10-Tatter.png"},
+        {name: "PP-Bizon - Antique (Restricted)", price: 11.96, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/PPBizon-Antique.png"},
+        {name: "XM1014 - Heaven Guard (Restricted)", price: 12.00, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/XM1014-HeavenGuard.png"}
     ],
     classified: [
-        {name: "M4A1-S - Atomic Alloy (Classified)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponClassified/M4A1S-AtomicAlloy.png"},
-        {name: "SCAR-20 - Cyrex (Classified)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponClassified/SCAR20-Cyrex.png"},
-        {name: "USP-S - Caiman (Classified)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponClassified/USPS-Caiman.png"}
+        {name: "M4A1-S - Atomic Alloy (Classified)", price: 125.15, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponClassified/M4A1S-AtomicAlloy.png"},
+        {name: "SCAR-20 - Cyrex (Classified)", price: 60.23, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponClassified/SCAR20-Cyrex.png"},
+        {name: "USP-S - Caiman (Classified)", price: 66.45, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponClassified/USPS-Caiman.png"}
     ],
     covert: [
-        {name: "AK-47 - Vulcan (Covert)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponCovert/AK-Vulcan.png"},
-        {name: "M4A4 - Desert Strike (Covert)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponCovert/M4-DesertStrike.png"}
+        {name: "AK-47 - Vulcan (Covert)", price: 900.62, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponCovert/AK-Vulcan.png"},
+        {name: "M4A4 - Desert Strike (Covert)", price: 81.00, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponCovert/M4-DesertStrike.png"}
     ],
     specialItem: [
-        {name: "Huntsman Knife - Blue Steel (Special Item)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-BlueSteel.png"},
-        {name: "Huntsman Knife - Boreal Forest (Special Item)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-BorealForest.png"},
-        {name: "Huntsman Knife - Case Hardened (Special Item)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-CaseHardened.png"},
-        {name: "Huntsman Knife - Crimson Web (Special Item)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-CrimsonWeb.png"},
-        {name: "Huntsman Knife - Fade (Special Item)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Fade.png"},
-        {name: "Huntsman Knife - Forest DDPAT (Special Item)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-ForestDDPAT.png"},
-        {name: "Huntsman Knife - Night (Special Item)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Night.png"},
-        {name: "Huntsman Knife - Safari Mesh (Special Item)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-SafariMesh.png"},
-        {name: "Huntsman Knife - Scorched (Special Item)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Scorched.png"},
-        {name: "Huntsman Knife - Slaughter (Special Item)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Slaughter.png"},
-        {name: "Huntsman Knife - Stained (Special Item)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Stained.png"},
-        {name: "Huntsman Knife - Urban Masked (Special Item)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-UrbanMasked.png"},
-        {name: "Huntsman Knife - Vanilla (Special Item)", img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Vanilla.png"}
+        {name: "Huntsman Knife - Blue Steel (Special Item)", price: 298.28, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-BlueSteel.png"},
+        {name: "Huntsman Knife - Boreal Forest (Special Item)", price: 320.86, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-BorealForest.png"},
+        {name: "Huntsman Knife - Case Hardened (Special Item)", price: 430.16, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-CaseHardened.png"},
+        {name: "Huntsman Knife - Crimson Web (Special Item)", price: 762.60, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-CrimsonWeb.png"},
+        {name: "Huntsman Knife - Fade (Special Item)", price: 560.80, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Fade.png"},
+        {name: "Huntsman Knife - Forest DDPAT (Special Item)", price: 440.00, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-ForestDDPAT.png"},
+        {name: "Huntsman Knife - Night (Special Item)", price: 854.88, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Night.png"},
+        {name: "Huntsman Knife - Safari Mesh (Special Item)", price: 332.48, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-SafariMesh.png"},
+        {name: "Huntsman Knife - Scorched (Special Item)", price: 700.00, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Scorched.png"},
+        {name: "Huntsman Knife - Slaughter (Special Item)", price: 420.00, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Slaughter.png"},
+        {name: "Huntsman Knife - Stained (Special Item)", price: 266.30, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Stained.png"},
+        {name: "Huntsman Knife - Urban Masked (Special Item)", price: 701.18, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-UrbanMasked.png"},
+        {name: "Huntsman Knife - Vanilla (Special Item)", price: 235.31, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Vanilla.png"}
     ]
 };
 
@@ -403,8 +406,11 @@ function HuntsmanWeaponCaseOpened() {
 
     HuntsmanWeaponCasesOpenedTotal = HuntsmanWeaponCasesOpenedTotal + 1;
     GlobalCasesOpenedTotal = GlobalCasesOpenedTotal + 1;
+    GlobalPricesNumber = GlobalPricesNumber + HuntsmanWeaponChosenSkin.price;
+    GlobalPricesNumberRounded = Math.round(GlobalPricesNumber * 100) / 100;
     HuntsmanWeaponResults.innerText = HuntsmanWeaponChosenSkin.name;
     HuntsmanWeaponImageDrops.src = HuntsmanWeaponChosenSkin.img;
     HuntsmanWeaponCaseTotal.innerText = "Total Huntsman Weapon Cases Opened: " + HuntsmanWeaponCasesOpenedTotal
     GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
+    GlobalPricesText.innerText = "Cost of unboxed skins: $" + GlobalPricesNumberRounded
 }
