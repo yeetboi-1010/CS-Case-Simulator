@@ -78,6 +78,10 @@ body {
     animation: wobble 3s infinite alternate;
 }
 
+#GlobalPriceCounter {
+    animation: wobble 3s infinite alternate;
+}
+
 @keyframes wobble {
     0% {transform: rotate(10deg);}
     100% {transform: rotate(-10deg);}
