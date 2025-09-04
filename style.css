@@ -6,14 +6,15 @@ body {
 
 .bordered {
     display: inline-block;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 10px;
     padding: 5px;
+    background-image: linear-gradient(135deg, rgb(225, 215, 149), rgb(194, 142, 64));
 }
 
 .borderedCases {
     display: inline-block;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 10px;
     padding: 10px;
     background-color: bisque;
@@ -40,8 +41,15 @@ body {
 .CaseOpenable {
     width: auto;
     height: 400px;
-
     animation: wobbleCases 3s infinite alternate;
+}
+
+.imgHoverScale {
+    transition: 0.3s;
+}
+
+.imgHoverScale:hover {
+    transform: scale(1.05);
 }
 
 .CaseButton {
