@@ -4,6 +4,25 @@ body {
     background-image: linear-gradient(135deg, rgb(225, 225, 225), rgb(200, 200, 200));
 }
 
+#LogoLink {
+    position: absolute;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    top: 5px;
+    left: 5px;
+    height: 125px;
+    width: auto;
+    animation: wobbleLogo 5s infinite;
+}
+
+#BannerIntro {
+    width: 530px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
 .bordered {
     display: inline-block;
     border: 3px solid black;
@@ -112,4 +131,12 @@ body {
 @keyframes wobbleCases {
     0% {transform: rotate(5deg);}
     100% {transform: rotate(-5deg);}
+}
+
+@keyframes wobbleLogo {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(5deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
 }
