@@ -4,6 +4,9 @@ let GlobalCasesOpenedTotal = 0;
 const GlobalPricesText = document.getElementById("GlobalPriceCounter")
 let GlobalPricesNumber = 0;
 
+const GlobalSpentText = document.getElementById("GlobalSpentCounter")
+let GlobalSpentNumber = 0;
+
 const OpenFeverButton = document.getElementById("FeverOpenButton")
 const FeverResults = document.getElementById("Results")
 const FeverImageDrops = document.getElementById("FeverDroppedSkinImage")
@@ -97,11 +100,14 @@ function FeverCaseOpened() {
     GlobalCasesOpenedTotal = GlobalCasesOpenedTotal + 1;
     GlobalPricesNumber = GlobalPricesNumber + ChosenSkin.price;
     GlobalPricesNumberRounded = Math.round(GlobalPricesNumber * 100) / 100;
+    GlobalSpentNumber = GlobalSpentNumber + 1.00 + 2.50;
+    GlobalSpentNumberRounded = Math.round(GlobalSpentNumber * 100) / 100;
     FeverResults.innerText = ChosenSkin.name;
     FeverImageDrops.src = ChosenSkin.img;
     CaseTotal.innerText = "Total Fever Cases Opened: " + CasesOpenedTotal
     GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
     GlobalPricesText.innerText = "Cost of unboxed skins: $" + GlobalPricesNumberRounded
+    GlobalSpentText.innerText = "Total spent opening cases: $" + GlobalSpentNumberRounded
 }
 
 
@@ -204,11 +210,14 @@ function RecoilCaseOpened() {
     GlobalCasesOpenedTotal = GlobalCasesOpenedTotal + 1;
     GlobalPricesNumber = GlobalPricesNumber + RecoilChosenSkin.price;
     GlobalPricesNumberRounded = Math.round(GlobalPricesNumber * 100) / 100;
+    GlobalSpentNumber = GlobalSpentNumber + 0.40 + 2.50;
+    GlobalSpentNumberRounded = Math.round(GlobalSpentNumber * 100) / 100;
     RecoilResults.innerText = RecoilChosenSkin.name;
     RecoilImageDrops.src = RecoilChosenSkin.img;
     RecoilCaseTotal.innerText = "Total Recoil Cases Opened: " + RecoilCasesOpenedTotal
     GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
     GlobalPricesText.innerText = "Cost of unboxed skins: $" + GlobalPricesNumberRounded
+    GlobalSpentText.innerText = "Total spent opening cases: $" + GlobalSpentNumberRounded
 }
 
 
@@ -315,11 +324,14 @@ function DreamsNightmaresCaseOpened() {
     GlobalCasesOpenedTotal = GlobalCasesOpenedTotal + 1;
     GlobalPricesNumber = GlobalPricesNumber + DreamsNightmaresChosenSkin.price;
     GlobalPricesNumberRounded = Math.round(GlobalPricesNumber * 100) / 100;
+    GlobalSpentNumber = GlobalSpentNumber + 2.01 + 2.50;
+    GlobalSpentNumberRounded = Math.round(GlobalSpentNumber * 100) / 100;
     DreamsNightmaresResults.innerText = DreamsNightmaresChosenSkin.name;
     DreamsNightmaresImageDrops.src = DreamsNightmaresChosenSkin.img;
     DreamsNightmaresCaseTotal.innerText = "Total Dreams & Nightmares Cases Opened: " + DreamsNightmaresCasesOpenedTotal
     GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
     GlobalPricesText.innerText = "Cost of unboxed skins: $" + GlobalPricesNumberRounded
+    GlobalSpentText.innerText = "Total spent opening cases: $" + GlobalSpentNumberRounded
 }
 
 
@@ -408,9 +420,12 @@ function HuntsmanWeaponCaseOpened() {
     GlobalCasesOpenedTotal = GlobalCasesOpenedTotal + 1;
     GlobalPricesNumber = GlobalPricesNumber + HuntsmanWeaponChosenSkin.price;
     GlobalPricesNumberRounded = Math.round(GlobalPricesNumber * 100) / 100;
+    GlobalSpentNumber = GlobalSpentNumber + 13.38 + 20.65;
+    GlobalSpentNumberRounded = Math.round(GlobalSpentNumber * 100) / 100;
     HuntsmanWeaponResults.innerText = HuntsmanWeaponChosenSkin.name;
     HuntsmanWeaponImageDrops.src = HuntsmanWeaponChosenSkin.img;
     HuntsmanWeaponCaseTotal.innerText = "Total Huntsman Weapon Cases Opened: " + HuntsmanWeaponCasesOpenedTotal
     GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
     GlobalPricesText.innerText = "Cost of unboxed skins: $" + GlobalPricesNumberRounded
+    GlobalSpentText.innerText = "Total spent opening cases (+price of applicable keys): $" + GlobalSpentNumberRounded
 }
