@@ -429,3 +429,100 @@ function HuntsmanWeaponCaseOpened() {
     GlobalPricesText.innerText = "Cost of unboxed skins: $" + GlobalPricesNumberRounded
     GlobalSpentText.innerText = "Total spent opening cases (+price of applicable keys): $" + GlobalSpentNumberRounded
 }
+
+
+
+
+
+
+
+const OpenCSgoWeaponButton = document.getElementById("CSgoWeaponOpenButton")
+const CSgoWeaponResults = document.getElementById("CSgoWeaponResults")
+const CSgoWeaponImageDrops = document.getElementById("CSgoWeaponDroppedSkinImage")
+const CSgoWeaponCaseTotal = document.getElementById("CasesTotalCSgoWeapon")
+
+let CSgoWeaponCasesOpenedTotal = 0;
+
+let CSgoWeaponCaseItems = [
+    {name: "milSpec", chance: 79.92328},
+    {name: "restricted", chance: 15.98465},
+    {name: "classified", chance: 3.19693},
+    {name: "covert", chance: 0.63939},
+    {name: "specialItem", chance: 0.25574},
+    {name: "specialItem", chance: 0.25574}
+]
+
+let CSgoWeaponCaseDropped = {
+    milSpec: [
+        {name: "CZ75-Auto - Twist (Mil-Spec)", price: 2.22, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/CZ75Auto-Twist.png"},
+        {name: "Galil AR - Kami (Mil-Spec)", price: 3.83, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/Galil-Kami.png"},
+        {name: "P90 - Module (Mil-Spec)", price: 1.72, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/P90-Module.png"},
+        {name: "P2000 - Pulse (Mil-Spec)", price: 1.85, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/P2000-Pulse.png"},
+        {name: "SSG 08 - Slashed (Mil-Spec)", price: 1.28, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/SSG08-Slashed.png"},
+        {name: "Tec-9 - Isaac (Mil-Spec)", price: 13.68, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/Tec-Isaac.png"}
+    ],
+    restricted: [
+        {name: "AUG - Torque (Restricted)", price: 11.55, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/AUG-Torque.png"},
+        {name: "MAC-10 - Tatter (Restricted)", price: 11.77, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/MAC10-Tatter.png"},
+        {name: "PP-Bizon - Antique (Restricted)", price: 11.96, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/PPBizon-Antique.png"},
+        {name: "XM1014 - Heaven Guard (Restricted)", price: 12.00, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/XM1014-HeavenGuard.png"}
+    ],
+    classified: [
+        {name: "M4A1-S - Atomic Alloy (Classified)", price: 125.15, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponClassified/M4A1S-AtomicAlloy.png"},
+        {name: "SCAR-20 - Cyrex (Classified)", price: 60.23, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponClassified/SCAR20-Cyrex.png"},
+        {name: "USP-S - Caiman (Classified)", price: 66.45, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponClassified/USPS-Caiman.png"}
+    ],
+    covert: [
+        {name: "AK-47 - Vulcan (Covert)", price: 900.62, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponCovert/AK-Vulcan.png"},
+        {name: "M4A4 - Desert Strike (Covert)", price: 81.00, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponCovert/M4-DesertStrike.png"}
+    ],
+    specialItem: [
+        {name: "Huntsman Knife - Blue Steel (Special Item)", price: 298.28, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-BlueSteel.png"},
+        {name: "Huntsman Knife - Boreal Forest (Special Item)", price: 320.86, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-BorealForest.png"},
+        {name: "Huntsman Knife - Case Hardened (Special Item)", price: 430.16, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-CaseHardened.png"},
+        {name: "Huntsman Knife - Crimson Web (Special Item)", price: 762.60, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-CrimsonWeb.png"},
+        {name: "Huntsman Knife - Fade (Special Item)", price: 560.80, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Fade.png"},
+        {name: "Huntsman Knife - Forest DDPAT (Special Item)", price: 440.00, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-ForestDDPAT.png"},
+        {name: "Huntsman Knife - Night (Special Item)", price: 854.88, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Night.png"},
+        {name: "Huntsman Knife - Safari Mesh (Special Item)", price: 332.48, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-SafariMesh.png"},
+        {name: "Huntsman Knife - Scorched (Special Item)", price: 700.00, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Scorched.png"},
+        {name: "Huntsman Knife - Slaughter (Special Item)", price: 420.00, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Slaughter.png"},
+        {name: "Huntsman Knife - Stained (Special Item)", price: 266.30, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Stained.png"},
+        {name: "Huntsman Knife - Urban Masked (Special Item)", price: 701.18, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-UrbanMasked.png"},
+        {name: "Huntsman Knife - Vanilla (Special Item)", price: 235.31, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-Vanilla.png"}
+    ]
+};
+
+OpenCSgoWeaponButton.addEventListener("click", CSgoWeaponCaseOpened)
+
+function CSgoWeaponCaseOpened() {
+    let rollCSgoWeapon = Math.random() * 100;
+    let CSgoWeaponRunningTotal = 0;
+    let CSgoWeaponChosenItem;
+
+    for (let i=0; i < CSgoWeaponCaseItems.length; i++) {
+        CSgoWeaponRunningTotal += CSgoWeaponCaseItems[i].chance
+
+        if (rollCSgoWeapon < CSgoWeaponRunningTotal) {
+            CSgoWeaponChosenItem = CSgoWeaponCaseItems[i];
+            break;
+        }
+    }
+
+    let skinsCSgoWeapon = CSgoWeaponCaseDropped[CSgoWeaponChosenItem.name]
+    let randomIndexCSgoWeapon = Math.floor(Math.random() * skinsCSgoWeapon.length)
+    let CSgoWeaponChosenSkin = skinsCSgoWeapon[randomIndexCSgoWeapon]
+
+    CSgoWeaponCasesOpenedTotal = CSgoWeaponCasesOpenedTotal + 1;
+    GlobalCasesOpenedTotal = GlobalCasesOpenedTotal + 1;
+    GlobalPricesNumber = GlobalPricesNumber + CSgoWeaponChosenSkin.price;
+    GlobalPricesNumberRounded = Math.round(GlobalPricesNumber * 100) / 100;
+    GlobalSpentNumber = GlobalSpentNumber + 13.38 + 20.65;
+    GlobalSpentNumberRounded = Math.round(GlobalSpentNumber * 100) / 100;
+    CSgoWeaponResults.innerText = CSgoWeaponChosenSkin.name;
+    CSgoWeaponImageDrops.src = CSgoWeaponChosenSkin.img;
+    CSgoWeaponCaseTotal.innerText = "Total CS:GO Weapon Cases Opened: " + CSgoWeaponCasesOpenedTotal
+    GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
+    GlobalPricesText.innerText = "Cost of unboxed skins: $" + GlobalPricesNumberRounded
+    GlobalSpentText.innerText = "Total spent opening cases (+price of applicable keys): $" + GlobalSpentNumberRounded
+}
