@@ -449,32 +449,26 @@ let CSgoWeaponCaseItems = [
     {name: "classified", chance: 3.19693},
     {name: "covert", chance: 0.63939},
     {name: "specialItem", chance: 0.25574},
-    {name: "specialItem", chance: 0.25574}
+    {name: "scarPattern", chance: 0.00001}
 ]
 
 let CSgoWeaponCaseDropped = {
     milSpec: [
-        {name: "CZ75-Auto - Twist (Mil-Spec)", price: 2.22, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/CZ75Auto-Twist.png"},
-        {name: "Galil AR - Kami (Mil-Spec)", price: 3.83, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/Galil-Kami.png"},
-        {name: "P90 - Module (Mil-Spec)", price: 1.72, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/P90-Module.png"},
-        {name: "P2000 - Pulse (Mil-Spec)", price: 1.85, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/P2000-Pulse.png"},
-        {name: "SSG 08 - Slashed (Mil-Spec)", price: 1.28, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/SSG08-Slashed.png"},
-        {name: "Tec-9 - Isaac (Mil-Spec)", price: 13.68, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponMilSpec/Tec-Isaac.png"}
+        {name: "AUG - Wings (Mil-Spec)", price: 21.28, img: "Images/Cases/CSgoWeaponCase/Skins/CSgoWeaponMilSpec/AUG-Wings.png"},
+        {name: "MP7 - Skulls (Mil-Spec)", price: 20.89, img: "Images/Cases/CSgoWeaponCase/Skins/CSgoWeaponMilSpec/MP7-Skulls.png"},
+        {name: "SG 553 - Ultraviolet (Mil-Spec)", price: 41.70, img: "Images/Cases/CSgoWeaponCase/Skins/CSgoWeaponMilSpec/SG553-Ultraviolet.png"}
     ],
     restricted: [
-        {name: "AUG - Torque (Restricted)", price: 11.55, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/AUG-Torque.png"},
-        {name: "MAC-10 - Tatter (Restricted)", price: 11.77, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/MAC10-Tatter.png"},
-        {name: "PP-Bizon - Antique (Restricted)", price: 11.96, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/PPBizon-Antique.png"},
-        {name: "XM1014 - Heaven Guard (Restricted)", price: 12.00, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponRestricted/XM1014-HeavenGuard.png"}
+        {name: "Glock 18 - Dragon Tattoo (Restricted)", price: 130.00, img: "Images/Cases/CSgoWeaponCase/Skins/CSgoWeaponRestricted/G18-DragonTattoo.png"},
+        {name: "M4A1-S - Dark Water (Restricted)", price: 106.37, img: "Images/Cases/CSgoWeaponCase/Skins/CSgoWeaponRestricted/M4A1S-DarkWater.png"},
+        {name: "USP-S - Dark Water (Restricted)", price: 92.24, img: "Images/Cases/CSgoWeaponCase/Skins/CSgoWeaponRestricted/USPS-DarkWater.png"}
     ],
     classified: [
-        {name: "M4A1-S - Atomic Alloy (Classified)", price: 125.15, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponClassified/M4A1S-AtomicAlloy.png"},
-        {name: "SCAR-20 - Cyrex (Classified)", price: 60.23, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponClassified/SCAR20-Cyrex.png"},
-        {name: "USP-S - Caiman (Classified)", price: 66.45, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponClassified/USPS-Caiman.png"}
+        {name: "Desert Eagle - Hypnotic (Classified)", price: 162.67, img: "Images/Cases/CSgoWeaponCase/Skins/CSgoWeaponClassified/Deagle-Hypnotic.png"},
+        {name: "AK-47 - Case Hardened (Classified)", price: 361.99, img: "Images/Cases/CSgoWeaponCase/Skins/CSgoWeaponClassified/AK-CaseHardened.png"}
     ],
     covert: [
-        {name: "AK-47 - Vulcan (Covert)", price: 900.62, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponCovert/AK-Vulcan.png"},
-        {name: "M4A4 - Desert Strike (Covert)", price: 81.00, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponCovert/M4-DesertStrike.png"}
+        {name: "AWP - Lightning Strike (Covert)", price: 630.00, img: "Images/Cases/CSgoWeaponCase/Skins/CSgoWeaponCovert/AWP-LightningStrike.png"}
     ],
     specialItem: [
         {name: "Huntsman Knife - Blue Steel (Special Item)", price: 298.28, img: "Images/Cases/HuntsmanWeaponCase/Skins/HuntsmanWeaponSpecialItems/HuntsmanKnife-BlueSteel.png"},
