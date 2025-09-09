@@ -113,14 +113,41 @@ body {
     width: 150px;
 }
 
+.testimonialBox {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: bisque;
+    width: 375px;
+}
+
+#testimonialText {
+    font-size: 28px;
+}
+
+.FiveStarsImage {
+    height: 50px;
+    width: auto;
+}
+
+.solidDivider {
+    background-color: black;
+    height: 1px;
+    width: 1000px;
+    border: none;
+}
+
 #OhnePixelImage {
     width: auto;
     height: 250px;
+    border-radius: 10px;
 }
 
 #GabenImage {
     width: auto;
     height: 250px;
+    border-radius: 10px;
 }
 
 #GlobalCaseCounter {
