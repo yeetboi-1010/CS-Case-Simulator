@@ -102,7 +102,7 @@ function FeverCaseOpened() {
     GlobalPricesNumberRounded = Math.round(GlobalPricesNumber * 100) / 100;
     GlobalSpentNumber = GlobalSpentNumber + 1.00 + 2.50;
     GlobalSpentNumberRounded = Math.round(GlobalSpentNumber * 100) / 100;
-    FeverResults.innerText = ChosenSkin.name;
+    FeverResults.innerText = ChosenSkin.name + " ($" + ChosenSkin.price + ")";
     FeverImageDrops.src = ChosenSkin.img;
     CaseTotal.innerText = "Total Fever Cases Opened: " + CasesOpenedTotal
     GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
@@ -212,7 +212,7 @@ function RecoilCaseOpened() {
     GlobalPricesNumberRounded = Math.round(GlobalPricesNumber * 100) / 100;
     GlobalSpentNumber = GlobalSpentNumber + 0.40 + 2.50;
     GlobalSpentNumberRounded = Math.round(GlobalSpentNumber * 100) / 100;
-    RecoilResults.innerText = RecoilChosenSkin.name;
+    RecoilResults.innerText = RecoilChosenSkin.name + " ($" +RecoilChosenSkin.price + ")";
     RecoilImageDrops.src = RecoilChosenSkin.img;
     RecoilCaseTotal.innerText = "Total Recoil Cases Opened: " + RecoilCasesOpenedTotal
     GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
@@ -326,7 +326,7 @@ function DreamsNightmaresCaseOpened() {
     GlobalPricesNumberRounded = Math.round(GlobalPricesNumber * 100) / 100;
     GlobalSpentNumber = GlobalSpentNumber + 2.01 + 2.50;
     GlobalSpentNumberRounded = Math.round(GlobalSpentNumber * 100) / 100;
-    DreamsNightmaresResults.innerText = DreamsNightmaresChosenSkin.name;
+    DreamsNightmaresResults.innerText = DreamsNightmaresChosenSkin.name + " ($" + DreamsNightmaresChosenSkin.price + ")";
     DreamsNightmaresImageDrops.src = DreamsNightmaresChosenSkin.img;
     DreamsNightmaresCaseTotal.innerText = "Total Dreams & Nightmares Cases Opened: " + DreamsNightmaresCasesOpenedTotal
     GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
@@ -422,7 +422,7 @@ function HuntsmanWeaponCaseOpened() {
     GlobalPricesNumberRounded = Math.round(GlobalPricesNumber * 100) / 100;
     GlobalSpentNumber = GlobalSpentNumber + 13.38 + 20.65;
     GlobalSpentNumberRounded = Math.round(GlobalSpentNumber * 100) / 100;
-    HuntsmanWeaponResults.innerText = HuntsmanWeaponChosenSkin.name;
+    HuntsmanWeaponResults.innerText = HuntsmanWeaponChosenSkin.name + " ($" + HuntsmanWeaponChosenSkin.price + ")";
     HuntsmanWeaponImageDrops.src = HuntsmanWeaponChosenSkin.img;
     HuntsmanWeaponCaseTotal.innerText = "Total Huntsman Weapon Cases Opened: " + HuntsmanWeaponCasesOpenedTotal
     GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
@@ -568,7 +568,7 @@ function CSgoWeaponCaseOpened() {
     GlobalPricesNumberRounded = Math.round(GlobalPricesNumber * 100) / 100;
     GlobalSpentNumber = GlobalSpentNumber + 134.00 + 11.01;
     GlobalSpentNumberRounded = Math.round(GlobalSpentNumber * 100) / 100;
-    CSgoWeaponResults.innerText = CSgoWeaponChosenSkin.name;
+    CSgoWeaponResults.innerText = CSgoWeaponChosenSkin.name + " ($" + CSgoWeaponChosenSkin.price + ")";
     CSgoWeaponImageDrops.src = CSgoWeaponChosenSkin.img;
     CSgoWeaponCaseTotal.innerText = "Total CS:GO Weapon Cases Opened: " + CSgoWeaponCasesOpenedTotal
     GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
