@@ -535,7 +535,10 @@ let CSgoWeaponCaseDropped = {
         {name: "M9 Bayonet - Slaughter (Special Item)", price: 1560.00, img: "Images/Cases/CSgoWeaponCase/Skins/CSgoWeaponSpecialItems/M9Bayonet-Slaughter.png"},
         {name: "M9 Bayonet - Stained (Special Item)", price: 861.16, img: "Images/Cases/CSgoWeaponCase/Skins/CSgoWeaponSpecialItems/M9Bayonet-Stained.png"},
         {name: "M9 Bayonet - Urban Masked (Special Item)", price: 949.99, img: "Images/Cases/CSgoWeaponCase/Skins/CSgoWeaponSpecialItems/M9Bayonet-UrbanMasked.png"},
-        {name: "M9 Bayonet - Vanilla (Special Item)", price: 1664.53, img: "Images/Cases/CSgoWeaponCase/Skins/CSgoWeaponSpecialItems/M9Bayonet-Vanilla.png"},
+        {name: "M9 Bayonet - Vanilla (Special Item)", price: 1664.53, img: "Images/Cases/CSgoWeaponCase/Skins/CSgoWeaponSpecialItems/M9Bayonet-Vanilla.png"}
+    ],
+    scarPattern: [
+        {name: "#661 Scar Pattern Case Hardened AK-47 (you have no idea how rare this is if you're seeing this lol, chances are ~0.00001 for any wear non-stat trak)", price: 1500000.00, img: "Images/Cases/CSgoWeaponCase/Skins/CSgoSCARpattern/661ScarPatternAK"}
     ]
 };
 
