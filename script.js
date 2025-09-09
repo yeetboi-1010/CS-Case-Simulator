@@ -575,3 +575,80 @@ function CSgoWeaponCaseOpened() {
     GlobalPricesText.innerText = "Cost of unboxed skins: $" + GlobalPricesNumberRounded
     GlobalSpentText.innerText = "Total spent opening cases (+price of applicable keys): $" + GlobalSpentNumberRounded
 }
+
+
+
+
+
+const OpenKatowice2014LegendsButton = document.getElementById("Katowice2014LegendsOpenButton")
+const Katowice2014LegendsResults = document.getElementById("Katowice2014LegendsResults")
+const Katowice2014LegendsImageDrops = document.getElementById("Katowice2014LegendsDroppedSkinImage")
+const Katowice2014LegendsCaseTotal = document.getElementById("CasesTotalKatowice2014Legends")
+
+let Katowice2014LegendsCasesOpenedTotal = 0;
+
+let Katowice2014LegendsCaseItems = [
+    {name: "highGrade", chance: 80.8},
+    {name: "remarkable", chance: 16},
+    {name: "exotic", chance: 3.2}
+]
+
+let Katowice2014LegendsCaseDropped = {
+    highGrade: [
+        {name: "compLexity Gaming (High Grade)", price: 699.99, img: "Images/StickerCapsules/Katowice2014Legends/Stickers/highGrade/compLexityGaming.png"},
+        {name: "Fnatic (High Grade)", price: 405.00, img: "Images/StickerCapsules/Katowice2014Legends/Stickers/highGrade/Fnatic.png"},
+        {name: "HellRaisers (High Grade)", price: 473.10, img: "Images/StickerCapsules/Katowice2014Legends/Stickers/highGrade/HellRaisers.png"},
+        {name: "LGB eSports (High Grade)", price: 756.83, img: "Images/StickerCapsules/Katowice2014Legends/Stickers/highGrade/LGBeSports.png"},
+        {name: "Team Dignitas (High Grade)", price: 794.68, img: "Images/StickerCapsules/Katowice2014Legends/Stickers/highGrade/NinjasInPyjamas.png"},
+        {name: "Ninjas in Pyjamas (High Grade)", price: 383.00, img: "Images/StickerCapsules/Katowice2014Legends/Stickers/highGrade/TeamDignitas.png"},
+        {name: "Team LDLC.com (High Grade)", price: 1349.85, img: "Images/StickerCapsules/Katowice2014Legends/Stickers/highGrade/TeamLDLC.png"},
+        {name: "Titan (High Grade)", price: 3485.00, img: "Images/StickerCapsules/Katowice2014Legends/Stickers/highGrade/Titan.png"}
+    ],
+    remarkable: [
+        {name: "compLexity Gaming - Holo (Remarkable)", price: 2399.99, img: "Images/StickerCapsules/Katowice2014Legends/Stickers/remarkable/compLexityGamingHolo.png"},
+        {name: "Fnatic - Holo (Remarkable)", price: 1099.00, img: "Images/StickerCapsules/Katowice2014Legends/Stickers/remarkable/FnaticHolo.png"},
+        {name: "HellRaisers - Holo (Remarkable)", price: 10708.02, img: "Images/StickerCapsules/Katowice2014Legends/Stickers/remarkable/HellRaisersHolo.png"},
+        {name: "LGB eSports - Holo (Remarkable)", price: 6311.44, img: "Images/StickerCapsules/Katowice2014Legends/Stickers/remarkable/LGBeSportsHolo.png"},
+        {name: "Team Dignitas - Holo (Remarkable)", price: 25199.00, img: "Images/StickerCapsules/Katowice2014Legends/Stickers/remarkable/NinjasInPyjamasHolo.png"},
+        {name: "Ninjas in Pyjamas - Holo (Remarkable)", price: 4471.46, img: "Images/StickerCapsules/Katowice2014Legends/Stickers/remarkable/TeamDignitasHolo.png"},
+        {name: "Team LDLC.com - Holo (Remarkable)", price: 22198.91, img: "Images/StickerCapsules/Katowice2014Legends/Stickers/remarkable/TeamLDLCHolo.png"},
+        {name: "Titan - Holo (Remarkable)", price: 140254, img: "Images/StickerCapsules/Katowice2014Legends/Stickers/remarkable/TitanHolo.png"}
+    ],
+    exotic: [
+        {name: "ESL Skull - Foil (Exotic)", price: 417.90, img: "Images/StickerCapsules/Katowice2014Legends/Stickers/exotic/ESLSkullFoil.png"}
+    ]
+};
+
+OpenKatowice2014LegendsButton.addEventListener("click", Katowice2014LegendsCaseOpened)
+
+function Katowice2014LegendsCaseOpened() {
+    let rollKatowice2014Legends = Math.random() * 100;
+    let Katowice2014LegendsRunningTotal = 0;
+    let Katowice2014LegendsChosenItem;
+
+    for (let i=0; i < Katowice2014LegendsCaseItems.length; i++) {
+        Katowice2014LegendsRunningTotal += Katowice2014LegendsCaseItems[i].chance
+
+        if (rollKatowice2014Legends < Katowice2014LegendsRunningTotal) {
+            Katowice2014LegendsChosenItem = Katowice2014LegendsCaseItems[i];
+            break;
+        }
+    }
+
+    let skinsKatowice2014Legends = Katowice2014LegendsCaseDropped[Katowice2014LegendsChosenItem.name]
+    let randomIndexKatowice2014Legends = Math.floor(Math.random() * skinsKatowice2014Legends.length)
+    let Katowice2014LegendsChosenSkin = skinsKatowice2014Legends[randomIndexKatowice2014Legends]
+
+    Katowice2014LegendsCasesOpenedTotal = Katowice2014LegendsCasesOpenedTotal + 1;
+    GlobalCasesOpenedTotal = GlobalCasesOpenedTotal + 1;
+    GlobalPricesNumber = GlobalPricesNumber + Katowice2014LegendsChosenSkin.price;
+    GlobalPricesNumberRounded = Math.round(GlobalPricesNumber * 100) / 100;
+    GlobalSpentNumber = GlobalSpentNumber + 38951.35;
+    GlobalSpentNumberRounded = Math.round(GlobalSpentNumber * 100) / 100;
+    Katowice2014LegendsResults.innerText = Katowice2014LegendsChosenSkin.name + " ($" + Katowice2014LegendsChosenSkin.price + ")";
+    Katowice2014LegendsImageDrops.src = Katowice2014LegendsChosenSkin.img;
+    Katowice2014LegendsCaseTotal.innerText = "Total Dreams & Nightmares Cases Opened: " + Katowice2014LegendsCasesOpenedTotal
+    GlobalCaseTotal.innerText = "Total Cases Opened: " + GlobalCasesOpenedTotal
+    GlobalPricesText.innerText = "Cost of unboxed skins: $" + GlobalPricesNumberRounded
+    GlobalSpentText.innerText = "Total spent opening cases: $" + GlobalSpentNumberRounded
+}
