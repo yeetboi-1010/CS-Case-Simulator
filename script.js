@@ -511,7 +511,7 @@ function CSgoWeaponCaseOpened() {
     GlobalCasesOpenedTotal = GlobalCasesOpenedTotal + 1;
     GlobalPricesNumber = GlobalPricesNumber + CSgoWeaponChosenSkin.price;
     GlobalPricesNumberRounded = Math.round(GlobalPricesNumber * 100) / 100;
-    GlobalSpentNumber = GlobalSpentNumber + 13.38 + 20.65;
+    GlobalSpentNumber = GlobalSpentNumber + 134.00 + 11.01;
     GlobalSpentNumberRounded = Math.round(GlobalSpentNumber * 100) / 100;
     CSgoWeaponResults.innerText = CSgoWeaponChosenSkin.name;
     CSgoWeaponImageDrops.src = CSgoWeaponChosenSkin.img;
