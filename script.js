@@ -1,7 +1,7 @@
 const BlueGemButton = document.getElementById("BlueGemBackgroundButton")
 const BodyReference = document.getElementById("bodyRef")
 BlueGemButton.addEventListener("click", BlueGemButtonClicked)
-let backgroundToggled = false;
+let backgroundToggled = true;
 function BlueGemButtonClicked() {
     if (backgroundToggled) {
         BodyReference.style.backgroundImage = 'url("Images/CaseHardenedPatternTemplateBackground.png")'
