@@ -14,6 +14,22 @@ body {
     animation: wobbleLogo 5s infinite;
 }
 
+#BlueGemBackgroundButton {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    animation: wobbleLogo 5s infinite;
+    background: none;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+#BlueGemImage {
+    height: 125px;
+    width: auto;
+}
+
 #BannerIntro {
     width: 530px;
     height: auto;
@@ -36,13 +52,15 @@ body {
     border-radius: 10px;
     padding: 10px;
     background-color: bisque;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 .borderedCaseRewards {
     display: inline-block;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 10px;
-    padding: 2px;
+    padding: 6px;
     background-color: bisque;
 }
 
@@ -73,6 +91,7 @@ body {
 .CaseButton {
     transition-duration: 0.5s;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .CaseButton:hover {

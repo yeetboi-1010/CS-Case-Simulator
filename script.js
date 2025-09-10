@@ -1,3 +1,18 @@
+const BlueGemButton = document.getElementById("BlueGemBackgroundButton")
+const BodyReference = document.getElementById("bodyRef")
+BlueGemButton.addEventListener("click", BlueGemButtonClicked)
+let backgroundToggled = false;
+function BlueGemButtonClicked() {
+    if (backgroundToggled) {
+        BodyReference.style.backgroundImage = 'url("Images/CaseHardenedPatternTemplateBackground.png")'
+        BodyReference.style.backgroundPosition = 'center'
+        BodyReference.style.backgroundSize = 'contain' }
+    else {
+        BodyReference.style.backgroundImage = 'linear-gradient(135deg, rgb(225, 225, 225), rgb(200, 200, 200))'
+    }
+    backgroundToggled = !backgroundToggled;
+}
+
 const GlobalCaseTotal = document.getElementById("GlobalCaseCounter")
 let GlobalCasesOpenedTotal = 0;
 
